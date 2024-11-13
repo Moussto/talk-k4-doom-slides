@@ -1,13 +1,20 @@
 ---
 layout: iframe-left
-
-# the web page source
 url: http://localhost:8085/
 
-# a custom class name to the content
-class: my-cool-content-on-the-right
+# right side custom class
+class: webcam-stream-right
 ---
 
-<Counter :count="10" m="t-4" />
+<WebcamStream />
 
+
+<style>
+.slidev-layout {
+    --uno: 
+}
+.webcam-stream-right { 
+@apply 'padding: 0';
+}
+</style>
 

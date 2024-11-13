@@ -1,20 +1,18 @@
 ---
-# You can also start simply with 'default'
 theme: default
 background: ./assets/img/doom_bg.png
-# some information about your slides (markdown enabled)
 title: K4 DOOM
 titleTemplate: '%s'
 monaco: false
 layout: cover
-# apply unocss classes to the current slide
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
 mdc: true
 overviewSnapshots: true
 
 fonts:
   sans: League Spartan
+  weights: '100,200,300,400,500,600,700,800,900'
+
   mono: Fira Code
 
 themeConfig:
@@ -30,7 +28,7 @@ themeConfig:
     }
     .subtitle {
         color: white;
-        font-size: 20pt;
+        font-size: 18pt;
     }
 </style>
 
