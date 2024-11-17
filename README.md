@@ -1,11 +1,8 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+TODO
+- Add my own moody blue theme
+- Better layout for pictures ?  
 
-To start the slide show:
 
-- `npm install`
-- `npm run dev`
-- visit <http://localhost:3030>
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev at the [documentation](https://sli.dev/).
+Ressources
+https://www.youtube.com/watch?v=ico4fJfohMQ
+https://tannerhelland.com/2012/12/28/dithering-eleven-algorithms-source-code.html

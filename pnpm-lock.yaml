@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@slidev/cli':
-        specifier: ^0.50.0-beta.5
+        specifier: 0.50.0-beta.5
         version: 0.50.0-beta.5(@babel/parser@7.26.2)(@nuxt/kit@3.14.159(rollup@4.25.0))(@types/markdown-it@14.1.2)(@types/node@18.19.64)(@vue/compiler-sfc@3.5.12)(postcss@8.4.49)(rollup@4.25.0)
       '@slidev/theme-default':
         specifier: latest
@@ -18,8 +18,12 @@ importers:
         specifier: latest
         version: 0.25.0
       vue:
-        specifier: ^3.5.12
+        specifier: 3.5.12
         version: 3.5.12(typescript@5.6.3)
+    devDependencies:
+      '@img-comparison-slider/vue':
+        specifier: ^8.0.0
+        version: 8.0.0
 
 packages:
 
@@ -480,6 +484,9 @@ packages:
 
   '@iconify/utils@2.1.33':
     resolution: {integrity: sha512-jP9h6v/g0BIZx0p7XGJJVtkVnydtbgTgt9mVNcGDYwaa7UhdHdI9dvoq+gKj9sijMSJKxUPEG2JyjsgXjxL7Kw==}
+
+  '@img-comparison-slider/vue@8.0.0':
+    resolution: {integrity: sha512-1gir2JlS8ZQLK2lzk4gIp6fuNvOR8UFXaPiHnBrF6fEwIXdMiI5veobi479FV6Tekj8CIhK+pLUPs+NvcOHd5g==}
 
   '@jridgewell/gen-mapping@0.3.5':
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
@@ -1805,6 +1812,9 @@ packages:
     resolution: {integrity: sha512-541xKlUw6jr/6gGuk92F+mYM5zaFAc5ahphvkqvNe2bQ6gVBkd6bfrmVJ2t4KDAfikAYZyIqTnktX3i6/aQDrQ==}
     engines: {node: '>=16.x'}
     hasBin: true
+
+  img-comparison-slider@8.0.6:
+    resolution: {integrity: sha512-ej4de7mWyjcXZvDgHq8K2a/dG8Vv+qYTdUjZa3cVILf316rLtDrHyGbh9fPvixmAFgbs30zTLfmaRDa7abjtzw==}
 
   immediate@3.0.6:
     resolution: {integrity: sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==}
@@ -3330,6 +3340,10 @@ snapshots:
       mlly: 1.7.3
     transitivePeerDependencies:
       - supports-color
+
+  '@img-comparison-slider/vue@8.0.0':
+    dependencies:
+      img-comparison-slider: 8.0.6
 
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
@@ -5150,6 +5164,8 @@ snapshots:
   image-size@1.1.1:
     dependencies:
       queue: 6.0.2
+
+  img-comparison-slider@8.0.6: {}
 
   immediate@3.0.6: {}
 
