@@ -1,7 +1,12 @@
 ---
-layout: section
+layout: image-right
+image: /pages/1-wtf-is-doom/assets/doom-poster.png
+backgroundSize: contain
+
 ---
-DOOM
+<div class="flex w-full h-full items-center justify-center">
+    <h1>DOOM</h1>
+</div>
 
 --- 
 layout: full
