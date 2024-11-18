@@ -1,0 +1,9 @@
+:root {
+    --midnight-blue: #1A1D29;
+    --slate-blue: #7D8491;
+    --charcoal-gray: #3D3F4A;
+    --silver: #B1B2B5;
+    --main-background-color : var(--midnight-blue);
+}
+
+

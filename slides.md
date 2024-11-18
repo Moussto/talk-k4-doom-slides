@@ -24,10 +24,13 @@ themeConfig:
 
 <style>
     h1 {
-        font-weight: bold;
+        font-weight: bolder;
+        margin-bottom: unset;
+        line-height: 1em;
     }
+
     .subtitle {
-        color: white;
+        color:  #B1B2B5;
         font-size: 18pt;
     }
 </style>
@@ -55,5 +58,3 @@ src: ./pages/5-code-and-kindle-framebuffer/code-and-kindle-framebuffer.md
 ---
 src: ./pages/6-fps-and-dithering/fps-and-dithering.md
 ---
-
-
