@@ -58,3 +58,11 @@ src: ./pages/5-code-and-kindle-framebuffer/code-and-kindle-framebuffer.md
 ---
 src: ./pages/6-fps-and-dithering/fps-and-dithering.md
 ---
+
+---
+src: ./components/stream-on-term.md
+---
+
+---
+src: ./pages/7-outro/outro.md
+---

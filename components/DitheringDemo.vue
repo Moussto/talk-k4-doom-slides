@@ -60,6 +60,14 @@ const calculateDithering = (pixelId: number, type = 'Floyd–Steinberg') => {
 const applyDithering = (pixelId: number, proportion: FLOYD_PERCENTAGES, errorToDivide: number) => {
   cells[pixelId].ditheredAccumulation += (errorToDivide * (proportion/100))
 }
+
+
+/*
+---
+layout: center
+---
+<DitheringDemo />
+ */
 </script>
 
 <template>

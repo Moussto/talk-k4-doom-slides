@@ -29,7 +29,6 @@ layout: asset-with-source
 videoPath: /pages/1-wtf-is-doom/assets/calculator.webm
 originalSource: https://www.youtube.com/watch?v=nduMTX86Zl0
 source: LGR - Running Doom on a Calculator! TI-83 Plus
-maxWidth: 80%
 ---
 
 ---
@@ -58,7 +57,8 @@ maxWidth: 90%
 ---
 
 ---
-src: /components/stream-on-term.md
+layout: default
 ---
+# Ported because of C and lots of thing
 
 

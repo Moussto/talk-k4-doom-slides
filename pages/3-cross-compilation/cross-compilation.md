@@ -1,6 +1,37 @@
-# CROSS COMPILATION
+---
+layout: center
+---
+<div class="flex w-full h-full flex-col items-center justify-center">
+    <h1>CROSS COMPILTION</h1>
+    <p v-motion v-click  :initial="{ y: -50 }" :enter="{ y: 0 }">(qui date un peu...)</p>
+</div>
 
-You can split your slides.md into multiple files and organize them as you want using the `src` attribute.
+
+---
+layout: default
+---
+# Explain architecutre
 
 
-Stuff here
+---
+layout: default
+---
+# Crosstool NG
+
+---
+layout: default
+---
+# Params and 30 compilation
+
+---
+layout: default
+---
+# Overengineered diagram
+
+---
+layout: iframe
+url: http://localhost:8085
+---
+
+
+

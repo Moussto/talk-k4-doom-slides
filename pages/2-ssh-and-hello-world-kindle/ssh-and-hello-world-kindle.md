@@ -9,7 +9,29 @@ backgroundSize: contain
     <p v-motion v-click  :initial="{ y: -50 }" :enter="{ y: 0 }">(qui date un peu...)</p>
 </div>
 
+
 ---
-layout: center
+layout: default
 ---
-<DitheringDemo />
+# E-INK
+
+
+---
+layout: default
+---
+# Jailbreak
+
+---
+layout: default
+---
+# SSH 
+
+---
+layout: default
+---
+# hello world example
+
+---
+layout: iframe
+url: http://localhost:8085
+---
