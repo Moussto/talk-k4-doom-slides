@@ -28,7 +28,7 @@ onBeforeUnmount(stopStream)
 
 <template>
   <iframe src="http://localhost:8085"/> <!-- Use local terminal streamed with ttyd like this `ttyd -W -p 8085 zsh` -->
-  <div v-drag="'square'">
+  <div v-drag="'square'" v-motion :initial="{ y: 500 }" :enter="{ y: 0, transition: { delay: 1200 }}" >
     <video autoplay id="webcam-video-on-top" />
   </div>
 </template>
