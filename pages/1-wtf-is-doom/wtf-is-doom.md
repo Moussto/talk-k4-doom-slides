@@ -8,10 +8,10 @@ backgroundSize: contain
     <h1>DOOM</h1>
 </div>
 
---- 
+---
 layout: full
 ---
-<SlidevVideo autoplay autoreset="slide">
+<SlidevVideo autoplay autoreset="slide" border="rounded">
   <source src="/pages/1-wtf-is-doom/assets/doom_gameplay.mp4" type="video/mp4" />
 </SlidevVideo>
 
@@ -57,8 +57,14 @@ maxWidth: 90%
 ---
 
 ---
-layout: default
+layout: full
 ---
-# Ported because of C and lots of thing
+<img absolute class="bottom-0 left-10"  src="/pages/1-wtf-is-doom/assets/doom_github_source_only.png" w-150/>
+<img v-click  :initial="{ x: 50 }" :enter="{ x: 0 }" absolute class="bottom-0 right-10"  src="/pages/1-wtf-is-doom/assets/doom_github_about.png" h-100/>
 
-
+<style>
+.slidev-layout {
+    position: relative;
+    padding: 0;
+}
+</style>

@@ -11,7 +11,16 @@ layout: center
 
 
 ---
-layout: end
+layout: two-cols
 ---
-# Sources and Thank you ?
 
+Stuff about me
+
+::right::
+
+## S/O ❤️
+
+- mobileread  Kindle Developer's Corner 
+- tannerhelland Dithering eleven algorithms source code
+
+<PoweredBySlidev />
