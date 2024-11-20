@@ -21,6 +21,9 @@ importers:
         specifier: 3.5.12
         version: 3.5.12(typescript@5.6.3)
     devDependencies:
+      '@iconify-json/streamline':
+        specifier: ^1.2.1
+        version: 1.2.1
       '@img-comparison-slider/vue':
         specifier: ^8.0.0
         version: 8.0.0
@@ -475,6 +478,9 @@ packages:
 
   '@iconify-json/ph@1.2.1':
     resolution: {integrity: sha512-x0DNfwWrS18dbsBYOq3XGiZnGz4CgRyC+YSl/TZvMQiKhIUl1woWqUbMYqqfMNUBzjyk7ulvaRovpRsIlqIf8g==}
+
+  '@iconify-json/streamline@1.2.1':
+    resolution: {integrity: sha512-hqNodkjyIHBymkFY3zMip0F/D5yw4qXgwMJCaTF3zlbpQMgNJhY3D2ikTFTDVcTHfCSd6EX6enKXj4Rvu+5hnw==}
 
   '@iconify-json/svg-spinners@1.2.1':
     resolution: {integrity: sha512-QZNA4YzFD2zqdC6nIBJM6WlAGakUCjvMt92Ks1R4XFxkd76Ps3rdiauYWESDRZvNYURAByp2b9cwZarFula65g==}
@@ -3371,6 +3377,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/ph@1.2.1':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/streamline@1.2.1':
     dependencies:
       '@iconify/types': 2.0.0
 

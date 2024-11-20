@@ -15,6 +15,7 @@
     "vue": "3.5.12"
   },
   "devDependencies": {
+    "@iconify-json/streamline": "^1.2.1",
     "@img-comparison-slider/vue": "^8.0.0"
   }
 }
