@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@iconify-json/streamline": "^1.2.1",
-    "@img-comparison-slider/vue": "^8.0.0"
+    "@img-comparison-slider/vue": "^8.0.0",
+    "@vueuse/sound": "^2.0.1"
   }
 }
