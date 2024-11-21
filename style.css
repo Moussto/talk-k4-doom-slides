@@ -7,3 +7,21 @@
 }
 
 
+.is-invalid {
+    color: darkred;
+    transition: color 500ms linear;
+    text-decoration: line-through;
+}
+
+.is-done {
+    color: seagreen;
+    transition: color 500ms linear;
+}
+
+.check-icon {
+    height: 25px;
+}
+
+.cross-icon {
+    height: 25px;
+}

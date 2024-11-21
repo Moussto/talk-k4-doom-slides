@@ -8,6 +8,7 @@ layout: cover
 transition: slide-left
 mdc: true
 overviewSnapshots: true
+favicon: '/assets/favicon.svg'
 
 fonts:
   sans: League Spartan

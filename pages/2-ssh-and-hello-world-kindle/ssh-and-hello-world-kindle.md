@@ -91,16 +91,6 @@ K3_WIFI_SSHD_ONLY="false"
 
 <img v-motion :initial="{ x: 50 }" :enter="{ x: 0 }" v-click="11" absolute class="bottom-0 right-0" src="/pages/2-ssh-and-hello-world-kindle/assets/lil_durk_meme.png" w-90>
 
-<style>
-.is-done {
-    color: seagreen;
-    transition: color 500ms linear;
-}
-
-.check-icon {
-    height: 25px;
-}
-</style>
 
 ---
 src: /components/terminal-only.md

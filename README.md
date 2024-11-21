@@ -1,10 +1,13 @@
 TODO
 - Better layout for pictures ?  
 - Where to put comic
-- use carmina on cross tool part
 - use my own quotes
 - Mention google search ? 
 - Cap Clair
+- Add timeline
+- add comment on github source
+- polish cross compilation memes and enchainement
+- More on crosstool-ng ? 
 
 Ressources
 https://www.youtube.com/watch?v=ico4fJfohMQ
