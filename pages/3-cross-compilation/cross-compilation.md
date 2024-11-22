@@ -24,7 +24,7 @@ layout: center
 layout: statement
 ---
 <h1>Crosstool-NG can build all these kinds of toolchains, or is aiming at it, anyway</h1>
-<cite>- crosstool-ng official doc</cite>
+<h6>- crosstool-ng official doc</h6>
 
 ---
 layout: default

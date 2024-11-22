@@ -1,21 +1,21 @@
-# CODE AND KINDLE FRAMEBUFFER
-You can split your slides.md into multiple files and organize them as you want using the `src` attribute.
-Stuff here
-
 ---
 layout: center
 ---
 # explain buffer size and pixel bytes
+/dev/fb0
 
 ---
 layout: center
 ---
 # Play with fb0 and dd
+dd if=/dev/urandom of=/dev/fb0 bs=600 count=800
+echo 1 > /proc/eink_fb/update_display
 
 ---
 layout: center
 ---
 # dd image prepared en avance
+dd if=./imageraw of=/dev/fb0 bs=600 count=800  echo 1 > /proc/eink_fb/update_display
 
 ---
 layout: center

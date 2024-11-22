@@ -8,6 +8,8 @@ TODO
 - add comment on github source
 - polish cross compilation memes and enchainement
 - More on crosstool-ng ? 
+- Excalidraw black engine book
+- Add docker image size screen
 
 Ressources
 https://www.youtube.com/watch?v=ico4fJfohMQ
