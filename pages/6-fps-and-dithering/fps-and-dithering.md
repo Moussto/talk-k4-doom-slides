@@ -8,12 +8,6 @@ Stuff here
 ---
 layout: center
 ---
-<DitheringDemo />
-
-
----
-layout: center
----
 # Display modes
 
 
@@ -21,7 +15,6 @@ layout: center
 layout: center
 ---
 # Demo an A2 tres moche
-
 
 ---
 layout: center
@@ -31,7 +24,22 @@ layout: center
 ---
 layout: center
 ---
-# Dithering image slider
+<DitherImage :image-url="'/pages/6-fps-and-dithering/assets/doom_bg.png'"></DitherImage>
+
+---
+layout: center
+---
+<DitherImage :image-url="'/pages/6-fps-and-dithering/assets/doom_bg.png'" :effect="'greyscale'"><</DitherImage>
+
+---
+layout: center
+---
+<DitherImage :image-url="'/pages/6-fps-and-dithering/assets/doom_bg.png'" :effect="'bw'"></DitherImage>
+
+---
+layout: center
+---
+<DitherImage :image-url="'/pages/6-fps-and-dithering/assets/doom_bg.png'" :effect="'floyd-steinberg'"></DitherImage>
 
 ---
 layout: center
@@ -42,3 +50,7 @@ layout: center
 layout: center
 ---
 # Final Demo ? fake music
+
+---
+src: ./components/stream-on-term.md
+---

@@ -17,6 +17,9 @@
   "devDependencies": {
     "@iconify-json/streamline": "^1.2.1",
     "@img-comparison-slider/vue": "^8.0.0",
-    "@vueuse/sound": "^2.0.1"
+    "@types/floyd-steinberg": "^1.0.3",
+    "@vueuse/sound": "^2.0.1",
+    "floyd-steinberg": "^1.0.6",
+    "jimp": "^1.6.0"
   }
 }
