@@ -88,17 +88,22 @@ layout: center
 <style scoped>
 .dithering-grid {
   display: grid;
-  gap: 7px;
+  gap: 1.3rem;
 
-  grid-template-columns: repeat(5, 90px);
-  grid-template-rows: repeat(5, 90px);
+  grid-template-columns: repeat(5, 75px);
+  grid-template-rows: repeat(5, 75px);
+
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(45, 52, 77, 0.4);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .pixel-cell {
-  border-radius: 20px;
+  border-radius: 0.5rem;
   width: 100%;
   height: 100%;
-  transition: background-color 3s ease;
+  transition: background-color 1.5s ease,  transform 0.2s ease;
 
   display: flex;
   justify-content: center;
@@ -112,26 +117,33 @@ layout: center
   cursor: pointer;
 }
 
+
 .pixel-cell-accumulation {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  background-color: pink;
+
+  background: rgba(255, 192, 203, 0.46);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.1px);
+  -webkit-backdrop-filter: blur(7.1px);
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
+
+
   padding: 2px 12px;
   font-size: 10pt;
-  color: black;
+  color: darkred ;
   transition: background-color 3s ease;
 }
 
+
 .pixel-cell:hover {
-  /* TODO: change this shit color */
-  border: 3px solid cornflowerblue;
+  transform: scale(1.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .immutable {
-  border: 1px solid green;
   cursor: unset;
 }
 

@@ -8,6 +8,12 @@ Stuff here
 ---
 layout: center
 ---
+<DitheringDemo />
+
+
+---
+layout: center
+---
 # Display modes
 
 

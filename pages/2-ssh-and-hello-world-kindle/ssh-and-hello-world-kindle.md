@@ -81,7 +81,7 @@ K3_WIFI_SSHD_ONLY="false"
 <!--
 9 -> 15
 -->
-### <span :class="{ 'is-done': $clicks >= 10 }" v-click="8" >  <CheckIcon v-if="$clicks >= 10" class='check-icon'/> Step II : Virer Amazon de mon Kindle</span>
+### <span :class="{ 'is-done': $clicks >= 10 }" v-click="8" >  <CheckIcon v-if="$clicks >= 10" class='check-icon'/> Step III : Virer Amazon de mon Kindle</span>
 <div v-if="$clicks >= 8 && $clicks <= 10" v-motion :initial="{ x: 0 }">
     <br/>
     <div v-click="[9, 10]">&nbsp&nbsp&nbsp&nbsp No Internet updates:  <code>/etc/uks</code> into <code>/etc/uks.disabled</code></div>
