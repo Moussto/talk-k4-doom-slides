@@ -31,7 +31,7 @@ const openSource = () => {
         <SlidevVideo autoplay autoreset="slide" border="rounded" v-if="props.videoPath" :style="{'max-width': maxWidth}">
             <source :src="videoPath" type="video/webm" /> <!-- Always webm for now, change this shit -->
         </SlidevVideo>
-      <div class="asset-source" @click="openSource"><p>{{ props.source }}</p></div>
+      <div class="asset-source" @click="openSource">{{ props.source }}</div>
       </div>
     </div>
   </div>
@@ -40,20 +40,6 @@ const openSource = () => {
 
 <style>
 
-.asset-source {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--silver);
-  font-size: 1rem;
-  font-weight: lighter;
-  font-style: italic;
-}
-
-.asset-source:hover {
-  cursor: pointer;
-  font-weight: normal;
-}
 
 .asset-content {
   display: flex;

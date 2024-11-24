@@ -24,32 +24,32 @@ layout: center
 ---
 layout: center
 ---
-<DitherImage :image-url="'/pages/6-fps-and-dithering/assets/doom_bg.png'"></DitherImage>
+# Dithering DEMO
 
 ---
 layout: center
 ---
-<DitherImage :image-url="'/pages/6-fps-and-dithering/assets/doom_bg.png'" :effect="'greyscale'"><</DitherImage>
+<DitherImage :image-url="'/pages/6-fps-and-dithering/assets/spongebob.png'"></DitherImage>
 
 ---
 layout: center
 ---
-<DitherImage :image-url="'/pages/6-fps-and-dithering/assets/doom_bg.png'" :effect="'bw'"></DitherImage>
+<DitherImage :image-url="'/pages/6-fps-and-dithering/assets/spongebob.png'" :effect="'greyscale'"><</DitherImage>
 
 ---
 layout: center
 ---
-<DitherImage :image-url="'/pages/6-fps-and-dithering/assets/doom_bg.png'" :effect="'floyd-steinberg'"></DitherImage>
+<DitherImage :image-url="'/pages/6-fps-and-dithering/assets/spongebob.png'" :effect="'bw'"></DitherImage>
 
 ---
 layout: center
 ---
-# show code dithering ?
+<DitherImage :image-url="'/pages/6-fps-and-dithering/assets/spongebob.png'" :effect="'floyd-steinberg'"></DitherImage>
 
 ---
 layout: center
 ---
-# Final Demo ? fake music
+# Final Demo ? fake music ? 
 
 ---
 src: ./components/stream-on-term.md

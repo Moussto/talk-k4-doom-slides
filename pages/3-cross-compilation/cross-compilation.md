@@ -37,14 +37,14 @@ layout: default
 1 -> 4
 -->
 
-### <span :class="{ 'is-invalid': $clicks >= 4 }">  <CrossIcon v-if="$clicks >= 4" class='cross-icon'/> Step I : Installer crosstool-NG sur macOS</span>
+## <span :class="{ 'is-invalid': $clicks >= 4 }">  <CrossIcon v-if="$clicks >= 4" class='cross-icon'/> Step I : Installer crosstool-NG sur macOS</span>
 <div v-if="$clicks < 4" v-motion :initial="{ x: 0 }" :leave="{ x: 50 }">
     <br/>
-    <div v-click="[1, 4]">&nbsp&nbsp&nbsp&nbsp<code>brew install</code> beaucoup de trop de packages</div>
+    <div v-click="[1, 4]"><h3>&nbsp&nbsp&nbsp&nbsp<code>brew install</code> beaucoup de trop de packages</h3></div>
     <br/>
-    <div v-click="[2, 4]">&nbsp&nbsp&nbsp&nbsp Monter un disque virtuel entier sensible a la casse pour crosstool-NG &nbsp <img src="/pages/3-cross-compilation/assets/eyesshaking.gif" width="24" class="inline" /></div> 
+    <div v-click="[2, 4]"><h3>&nbsp&nbsp&nbsp&nbsp Monter un disque virtuel entier sensible a la casse pour crosstool-NG &nbsp <img src="/pages/3-cross-compilation/assets/eyesshaking.gif" width="30" class="inline" /></h3></div> 
     <br/>
-    <div v-click="[3, 4]">&nbsp&nbsp&nbsp&nbsp J'ai failli briquer mon Mac </div>
+    <div v-click="[3, 4]"><h3>&nbsp&nbsp&nbsp&nbsp J'ai failli briquer mon Mac </h3></div>
 </div>
 
 <br/>
@@ -53,12 +53,12 @@ layout: default
 5 -> 9
 -->
 
-### <span :class="{ 'is-done': $clicks >= 9 }" v-click="5">  <CheckIcon v-if="$clicks >= 9" class='check-icon'/> Step I : Installer crosstool-NG dans Docker</span>
+## <span :class="{ 'is-done': $clicks >= 9 }" v-click="5">  <CheckIcon v-if="$clicks >= 9" class='check-icon'/> Step I : Installer crosstool-NG dans Docker</span>
 <div v-if="$clicks >= 5 && $clicks < 9" v-motion :initial="{ x: 0 }" :leave="{ x: 50 }">
     <br/>
-    <div v-click="[6, 9]">&nbsp&nbsp&nbsp&nbsp Installer crosstool-NG sur Ubuntu</div>
+    <div v-click="[6, 9]"><h3>&nbsp&nbsp&nbsp&nbsp Installer crosstool-NG sur Ubuntu</h3></div>
     <br/>
-    <div v-click="[7, 9]">&nbsp&nbsp&nbsp&nbsp Configurer la toolchain arm-cortex_a8-linux-gnueabi-gcc 🛠</div> 
+    <div v-click="[7, 9]"><h3>&nbsp&nbsp&nbsp&nbsp Configurer la toolchain arm-cortex_a8-linux-gnueabi-gcc 🛠</h3></div> 
     <div v-click="[7, 9]" w-100 mx-7>
 
 |              |                  |   |            |                        |
@@ -80,10 +80,10 @@ layout: default
 -->
 
 
-### <span :class="{ 'is-done': $clicks >= 12 }" v-click="10">  <CheckIcon v-if="$clicks >= 12" class='check-icon'/> Step II : Générer la toolchain</span>
+## <span :class="{ 'is-done': $clicks >= 12 }" v-click="10">  <CheckIcon v-if="$clicks >= 12" class='check-icon'/> Step II : Générer la toolchain</span>
 <div v-if="$clicks >= 10 && $clicks < 13" v-motion :initial="{ x: 0 }" :leave="{ x: 50 }">
     <br/>
-    <div v-click="[11, 12]">&nbsp&nbsp&nbsp&nbsp Attendre 32 minutes </div>
+    <div v-click="[11, 12]"><h3>&nbsp&nbsp&nbsp&nbsp Attendre 32 minutes </h3></div>
 </div>
 
 ---

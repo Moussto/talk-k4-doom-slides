@@ -25,6 +25,7 @@ backgroundSize: contain
 layout: center
 ---
 <img src="/pages/2-ssh-and-hello-world-kindle/assets/eink.gif">
+<div class="asset-source" @click="window?.open('https://www.eink.com/tech/detail/How_it_works', '_blank')">Two Particle Ink System - E Ink Carta™</div>
 
 
 ---
@@ -37,14 +38,14 @@ layout: default
 1 -> 5
 -->
 
-### <span :class="{ 'is-done': $clicks >= 5 }">  <CheckIcon v-if="$clicks >= 5" class='check-icon'/> Step I : Se faire passer pour un développeur Amazon  </span>
+## <span :class="{ 'is-done': $clicks >= 5 }">  <CheckIcon v-if="$clicks >= 5" class='check-icon'/> Step I : Se faire passer pour un développeur Amazon  </span>
 <div v-if="$clicks < 5" v-motion :initial="{ x: 0 }" :leave="{ x: 50 }">
     <br/>
-    <div v-click="[1, 5]">&nbsp&nbsp&nbsp&nbsp <code>Kindle4NTHacking.tar.gz</code>  Fake Dev Key + Diagnostic mode + Script ✨</div>
+    <div v-click="[1, 5]"><h3>&nbsp&nbsp&nbsp&nbsp <code>Kindle4NTHacking.tar.gz</code>  Fake Dev Key + Diagnostic mode + Script ✨</h3></div>
     <br/>
-    <div v-click="[2, 5]">&nbsp&nbsp&nbsp&nbsp <kbd>CTRL + C</kbd> <kbd>CTRL + V</kbd> via USB </div> 
+    <div v-click="[2, 5]"><h3>&nbsp&nbsp&nbsp&nbsp <kbd>CTRL + C</kbd> <kbd>CTRL + V</kbd> via USB </h3></div> 
     <br/>
-    <div v-click="[3, 5]">&nbsp&nbsp&nbsp&nbsp On Kindle <code>Menu -> Settings -> Menu -> Restart</code> </div>
+    <div v-click="[3, 5]"><h3>&nbsp&nbsp&nbsp&nbsp On Kindle <code>Menu -> Settings -> Menu -> Restart</code> </h3></div>
 </div>
 
 <br/>
@@ -55,12 +56,12 @@ layout: default
 5 -> 8
 -->
 
-### <span :class="{ 'is-done': $clicks >= 8 }" v-click="5" >  <CheckIcon v-if="$clicks >= 8" class='check-icon'/> Step II : Connexion SSH </span>
+## <span :class="{ 'is-done': $clicks >= 8 }" v-click="5" >  <CheckIcon v-if="$clicks >= 8" class='check-icon'/> Step II : Connexion SSH </span>
 <div v-if="$clicks >= 5 && $clicks < 8" v-motion :initial="{ x: 0 }">
     <br/>
-    <div v-click="[6, 8]">&nbsp&nbsp&nbsp&nbsp Package USBNetwork <code>kindle-usbnetwork-0.57.N-k4.zip</code></div>
+    <div v-click="[6, 8]"><h3>&nbsp&nbsp&nbsp&nbsp Package USBNetwork <code>kindle-usbnetwork-0.57.N-k4.zip</code></h3></div>
     <br/>
-    <div v-click="[7, 8]"> &nbsp&nbsp&nbsp&nbsp <code>touch .config</code>
+    <div v-click="[7, 8]"> <h3>&nbsp&nbsp&nbsp&nbsp <code>touch .config</code></h3><br/>
         <div>
 ```shell
 #!/bin/sh
@@ -81,10 +82,10 @@ K3_WIFI_SSHD_ONLY="false"
 <!--
 9 -> 15
 -->
-### <span :class="{ 'is-done': $clicks >= 10 }" v-click="8" >  <CheckIcon v-if="$clicks >= 10" class='check-icon'/> Step III : Virer Amazon de mon Kindle</span>
+## <span :class="{ 'is-done': $clicks >= 10 }" v-click="8" >  <CheckIcon v-if="$clicks >= 10" class='check-icon'/> Step III : Virer Amazon de mon Kindle</span>
 <div v-if="$clicks >= 8 && $clicks <= 10" v-motion :initial="{ x: 0 }">
     <br/>
-    <div v-click="[9, 10]">&nbsp&nbsp&nbsp&nbsp No Internet updates:  <code>/etc/uks</code> into <code>/etc/uks.disabled</code></div>
+    <div v-click="[9, 10]"><h3>&nbsp&nbsp&nbsp&nbsp No Internet updates:  <code>/etc/uks</code> into <code>/etc/uks.disabled</code></h3></div>
     <br/>
 </div>
 

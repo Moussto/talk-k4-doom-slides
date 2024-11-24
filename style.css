@@ -14,14 +14,31 @@
 }
 
 .is-done {
-    color: seagreen;
+    color: #4ade80;
     transition: color 500ms linear;
 }
 
 .check-icon {
-    height: 25px;
+    height: 30px;
 }
 
 .cross-icon {
     height: 25px;
+}
+
+.asset-source {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    color: white;
+    font-size: 12px;
+
+    border-bottom-width: 1px;
+    border-color: currentColor;
+    border-style: dashed;
+}
+
+.asset-source:hover {
+    cursor: pointer;
 }

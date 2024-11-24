@@ -1,5 +1,4 @@
 TODO
-- Better layout for pictures ?  
 - Where to put comic
 - use my own quotes
 - Mention google search ? 
@@ -7,9 +6,9 @@ TODO
 - Add timeline
 - add comment on github source
 - polish cross compilation memes and enchainement
-- More on crosstool-ng ? 
 - Excalidraw black engine book
 - Add docker image size screen
+- add code balise to orange ?
 
 Ressources
 https://www.youtube.com/watch?v=ico4fJfohMQ
