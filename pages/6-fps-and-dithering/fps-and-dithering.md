@@ -52,5 +52,5 @@ layout: center
 # Final Demo ? fake music ? 
 
 ---
-src: ./components/stream-on-term.md
+src: /components/stream-on-term.md
 ---
