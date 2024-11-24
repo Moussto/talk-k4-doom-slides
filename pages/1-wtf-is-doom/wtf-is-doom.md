@@ -5,7 +5,7 @@ backgroundSize: contain
 
 ---
 <div class="flex w-full h-full items-center justify-center">
-    <h1>DOOM</h1>
+    <h1 class="doom-gradient">DOOM</h1>
 </div>
 
 ---
@@ -51,10 +51,19 @@ maxWidth: 30%
 ---
 layout: asset-with-source
 videoPath: /pages/1-wtf-is-doom/assets/preg.webm
-originalSource: https://www.youtube.com/watch?v=V1gcoyo5Ssk
-source: Nev's Tech Bits - @Foon Got Doom Running On A Pregnancy Tester
+originalSource: https://x.com/Foone/status/1302293748894769153
+source: @Foon - You were trying to get pregnant, right?
 maxWidth: 90%
 ---
+
+---
+layout: asset-with-source
+videoPath: /pages/1-wtf-is-doom/assets/boomdoom.jpeg
+originalSource: https://x.com/Foone/status/1302293748894769153
+source: @Foon - You were trying to get pregnant, right?
+maxWidth: 90%
+---
+
 
 ---
 layout: full

@@ -13,7 +13,6 @@ favicon: '/assets/favicon.svg'
 fonts:
   sans: League Spartan
   weights: '100,200,300,400,500,600,700,800,900'
-
   mono: Fira Code
 
 themeConfig:

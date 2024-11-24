@@ -1,14 +1,12 @@
 TODO
 - Where to put comic
-- use my own quotes
 - Mention google search ? 
-- Cap Clair
 - Add timeline
 - add comment on github source
 - polish cross compilation memes and enchainement
 - Excalidraw black engine book
 - Add docker image size screen
-- add code balise to orange ?
+- add custom code theme orange ?
 
 Ressources
 https://www.youtube.com/watch?v=ico4fJfohMQ

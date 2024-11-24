@@ -58,12 +58,5 @@ void DG_DrawFrame() {}
 layout: statement
 ---
 
-<h1>Peut-être, mais je fais ce que je veux</h1>
+<h1 class="doom-gradient">Peut-être, mais je fais ce que je veux</h1>
 <h6 v-click>- Moi</h6>
-
----
-layout: statement
----
-
-<h1>I'ma do what I want when I want</h1>
-<h6 v-click>- Kendrick Lamar</h6>

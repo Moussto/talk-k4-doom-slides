@@ -14,7 +14,7 @@ layout: center
 layout: two-cols
 ---
 
-# Moustapha AGACK
+# <div class="doom-gradient">Moustapha AGACK</div>
 Full Stack Developer <br/><br/>
 Smash my keyboard for a living—results vary, but sometimes cool stuff happens
 
@@ -46,11 +46,9 @@ Smash my keyboard for a living—results vary, but sometimes cool stuff happens
 
 <br/>
 
-######  Slides
 <PoweredBySlidev class="slidev-thanks"/>
 
 </div>
-
 
 
 <style>

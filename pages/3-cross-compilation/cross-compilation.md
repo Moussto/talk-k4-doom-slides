@@ -5,11 +5,17 @@ image: /pages/3-cross-compilation/assets/sped_up.gif
 audioSourcePath: /pages/3-cross-compilation/assets/requiem_d_minor_7.mp3
 ---
 <div class="flex w-full h-full flex-col items-center justify-center">
-    <h1 v-motion :initial="{ opacity: 0, scale: 0.6 }" :enter="{ opacity: 1, scale: 1 }" :delay="500" :duration="9000">CROSS COMPILATION</h1>
+    <h1 class="doom-gradient" v-motion :initial="{ opacity: 0, scale: 0.6 }" :enter="{ opacity: 1, scale: 1 }" :delay="500" :duration="9000">CROSS COMPILATION</h1>
 </div>
 <SlidevVideo absolute timestamp='12' class="bottom-0 left-0" autoplay autoreset="slide" width="300px" v-motion :initial="{ opacity: 0 }" :enter="{ opacity:1, transition: {duration: 4000}}">
     <source src="/pages/3-cross-compilation/assets/willem_meme.webm" type="video/webm" />
 </SlidevVideo>
+
+<style>
+h1 {
+  letter-spacing: 2px;
+}
+</style>
 
 ---
 layout: center
@@ -23,7 +29,7 @@ layout: center
 ---
 layout: statement
 ---
-<h1>Crosstool-NG can build all these kinds of toolchains, or is aiming at it, anyway</h1>
+<h1 class="doom-gradient">Crosstool-NG can build all these kinds of toolchains, or is aiming at it, anyway</h1>
 <h6>- crosstool-ng official doc</h6>
 
 ---
@@ -65,7 +71,7 @@ layout: default
 |--------------|------------------|---|------------|------------------------|
 | Architecture | <kbd>Armv7</kbd> |   | C lib      | <kbd>glibc</kbd>       |
 | Compiler     | <kbd>gcc</kbd>   |   | CC version | <kbd>linaro 4.17</kbd> |
-| Interface    | <kbd>EABI</kbd>  |   | Kernel     | <kbd>Linux</kbd>       |
+| Interface    | <kbd>EABI</kbd>  |   | Endianness | <kbd>Little endian</kbd> |
     
 </div>
 </div>

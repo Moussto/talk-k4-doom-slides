@@ -4,18 +4,19 @@
     --charcoal-gray: #3D3F4A;
     --silver: #B1B2B5;
     --main-background-color : var(--midnight-blue);
+    --orange-doom-color: #f73201
 }
 
 
 .is-invalid {
-    color: darkred;
-    transition: color 500ms linear;
+    color: #7a3734;
+    transition: all 300ms linear;
     text-decoration: line-through;
 }
 
 .is-done {
-    color: #4ade80;
-    transition: color 500ms linear;
+    color: #98D69D;
+    transition: color 300ms linear;
 }
 
 .check-icon {
@@ -23,7 +24,7 @@
 }
 
 .cross-icon {
-    height: 25px;
+    height: 30px;
 }
 
 .asset-source {
@@ -41,4 +42,26 @@
 
 .asset-source:hover {
     cursor: pointer;
+}
+
+
+.doom-gradient {
+    background: #FFB76B;
+    background: linear-gradient(to right,
+    #FFB76B 5%,
+    #FFC176 15%,
+    #FFA73D 35%,
+    #FF7C00 60%,
+    #F75211 80%,
+    #F73201 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+kbd {
+    border-color: #FFB76B !important;
+}
+
+.slidev-code {
+    background: #eff1f5;
 }

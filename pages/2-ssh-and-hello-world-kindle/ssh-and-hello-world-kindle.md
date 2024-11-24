@@ -31,7 +31,7 @@ layout: center
 ---
 layout: default
 ---
-# Jailbreak TL;DR
+# <div class="doom-gradient">Jailbreak TL;DR</div>
 <br/>
 
 <!--
@@ -101,6 +101,10 @@ src: /components/terminal-only.md
 layout: default
 ---
 
+<br />
+<br />
+<br />
+
 ```shell
 touch ./hello.c
 ```
@@ -133,12 +137,12 @@ backgroundSize: contain
 <div class="flex w-full h-full flex-col items-center justify-center">
     <h1>Kindle 4th Gen</h1>
 
-|         |   |   |   |                                                                                                                                                |
-|---------|---|---|---|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Release |   |   |   | <kbd>September 2011</kbd>                                                                                                                      |
-| Display |   |   |   | <kbd>6"</kbd> <kbd>600x800p</kbd> <kbd>16 bit Greyscale</kbd>                                                                                  |
-| OS      |   |   |   | <kbd>Linux (Amazon)</kbd>                                                                                                                      |
-| Memory  |   |   |   | <kbd>256 MB DDR</kbd>                                                                                                                          |
-| CPU     |   |   |   | <span v-mark.circle="{ color: 'orange', strokeWidth:2 }"> <kbd>ARM Cortex-A8</kbd> </span> <kbd>800MHz</kbd> <br/><kbd>Freescale i.MX508</kbd> |
+|         |   |   |   |                                                                                                                                                 |
+|---------|---|---|---|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| Release |   |   |   | <kbd>September 2011</kbd>                                                                                                                       |
+| Display |   |   |   | <kbd>6"</kbd> <kbd>600x800p</kbd> <kbd>16 bit Greyscale</kbd>                                                                                   |
+| OS      |   |   |   | <kbd>Linux (Amazon)</kbd>                                                                                                                       |
+| Memory  |   |   |   | <kbd>256 MB DDR</kbd>                                                                                                                           |
+| CPU     |   |   |   | <span v-mark.circle="{ color: '#F73201', strokeWidth:2 }"> <kbd>ARM Cortex-A8</kbd> </span> <kbd>800MHz</kbd> <br/><kbd>Freescale i.MX508</kbd> |
 
 </div>
