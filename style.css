@@ -4,7 +4,15 @@
     --charcoal-gray: #3D3F4A;
     --silver: #B1B2B5;
     --main-background-color : var(--midnight-blue);
-    --orange-doom-color: #f73201
+
+    --orange-doom-color: #f73201;
+
+    --orange-doom-shade-1: #FFB76B;
+    --orange-doom-shade-2: #FFC176;
+    --orange-doom-shade-3: #FFA73D;
+    --orange-doom-shade-4: #FF7C00;
+    --orange-doom-shade-5: #F75211;
+    --orange-doom-shade-6: #F73201;
 }
 
 

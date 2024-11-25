@@ -8,6 +8,11 @@ backgroundSize: contain
     <h1 class="doom-gradient">DOOM</h1>
 </div>
 
+<style>
+h1 {
+    font-weight: 600;
+}
+</style>
 ---
 layout: full
 ---

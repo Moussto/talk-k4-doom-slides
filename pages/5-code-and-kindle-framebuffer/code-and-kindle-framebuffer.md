@@ -1,8 +1,8 @@
 ---
-layout: center
+layout: default
 ---
-# explain buffer size and pixel bytes
-/dev/fb0
+# Framebuffer  `/dev/fb0`
+
 
 ---
 layout: center
