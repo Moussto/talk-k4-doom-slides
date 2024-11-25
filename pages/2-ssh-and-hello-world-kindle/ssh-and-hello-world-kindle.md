@@ -9,13 +9,13 @@ backgroundSize: contain
     <div v-click>
     <div  v-if="$clicks > 1">
 
-|         |   |   |   |                                                                               |
-|---------|---|---|---|-------------------------------------------------------------------------------|
-| Release |   |   |   | <kbd>September 2011</kbd>                                                     |
-| Display |   |   |   | <kbd>6"</kbd> <kbd>600x800p</kbd> <kbd>16 bit Greyscale</kbd>                 |
-| OS      |   |   |   | <kbd>Linux (Amazon)</kbd>                                                     |
-| Memory  |   |   |   | <kbd>256 MB DDR</kbd>                                                         |
-| CPU     |   |   |   | <kbd>ARM Cortex-A8</kbd><kbd>800MHz</kbd> <br/><kbd>Freescale i.MX508</kbd>   |
+|         |   |   |   |                                                                             |
+|---------|---|---|---|-----------------------------------------------------------------------------|
+| Release |   |   |   | <kbd>September 2011</kbd>                                                   |
+| Display |   |   |   | <kbd>6"</kbd> <kbd>600x800p</kbd> <kbd>8 bit Greyscale</kbd>                |
+| OS      |   |   |   | <kbd>Linux (Amazon)</kbd>                                                   |
+| Memory  |   |   |   | <kbd>256 MB DDR</kbd>                                                       |
+| CPU     |   |   |   | <kbd>ARM Cortex-A8</kbd><kbd>800MHz</kbd> <br/><kbd>Freescale i.MX508</kbd> |
 
 </div>
 </div>
@@ -140,7 +140,7 @@ backgroundSize: contain
 |         |   |   |   |                                                                                                                                                 |
 |---------|---|---|---|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Release |   |   |   | <kbd>September 2011</kbd>                                                                                                                       |
-| Display |   |   |   | <kbd>6"</kbd> <kbd>600x800p</kbd> <kbd>16 bit Greyscale</kbd>                                                                                   |
+| Display |   |   |   | <kbd>6"</kbd> <kbd>600x800p</kbd> <kbd>8 bit Greyscale</kbd>                                                                                    |
 | OS      |   |   |   | <kbd>Linux (Amazon)</kbd>                                                                                                                       |
 | Memory  |   |   |   | <kbd>256 MB DDR</kbd>                                                                                                                           |
 | CPU     |   |   |   | <span v-mark.circle="{ color: '#F73201', strokeWidth:2 }"> <kbd>ARM Cortex-A8</kbd> </span> <kbd>800MHz</kbd> <br/><kbd>Freescale i.MX508</kbd> |
