@@ -35,7 +35,7 @@ layout: statement
 ---
 layout: default
 ---
-# Objectif <code>arm-cortex_a8-linux-gnueabi-gcc</code>
+# <span class="doom-gradient">Toolchain</span> <code>arm-cortex_a8-linux-gnueabi-gcc</code>
 
 <br/>
 

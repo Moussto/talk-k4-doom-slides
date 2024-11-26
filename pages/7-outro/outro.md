@@ -46,9 +46,14 @@ Smash my keyboard for a living—results vary, but sometimes cool stuff happens
 
 <br/>
 
-<PoweredBySlidev class="slidev-thanks"/>
+
+
+<div class="flex flex-row justify-end">
+    <PoweredBySlidev class="slidev-thanks"/>
+</div>
 
 </div>
+
 
 
 <style>

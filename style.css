@@ -54,20 +54,20 @@
 
 
 .doom-gradient {
-    background: #FFB76B;
+    background: var(--orange-doom-shade-1);
     background: linear-gradient(to right,
-    #FFB76B 5%,
-    #FFC176 15%,
-    #FFA73D 35%,
-    #FF7C00 60%,
-    #F75211 80%,
-    #F73201 100%);
+    var(--orange-doom-shade-1) 5%,
+    var(--orange-doom-shade-2) 15%,
+    var(--orange-doom-shade-3) 35%,
+    var(--orange-doom-shade-4) 60%,
+    var(--orange-doom-shade-5) 80%,
+    var(--orange-doom-shade-6) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 kbd {
-    border-color: #FFB76B !important;
+    border-color: var(--orange-doom-shade-1) !important;
 }
 
 .slidev-code {

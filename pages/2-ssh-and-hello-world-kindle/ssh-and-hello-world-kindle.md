@@ -137,12 +137,12 @@ backgroundSize: contain
 <div class="flex w-full h-full flex-col items-center justify-center">
     <h1>Kindle 4th Gen</h1>
 
-|         |   |   |   |                                                                                                                                                 |
-|---------|---|---|---|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| Release |   |   |   | <kbd>September 2011</kbd>                                                                                                                       |
-| Display |   |   |   | <kbd>6"</kbd> <kbd>600x800p</kbd> <kbd>8 bit Greyscale</kbd>                                                                                    |
-| OS      |   |   |   | <kbd>Linux (Amazon)</kbd>                                                                                                                       |
-| Memory  |   |   |   | <kbd>256 MB DDR</kbd>                                                                                                                           |
-| CPU     |   |   |   | <span v-mark.circle="{ color: '#F73201', strokeWidth:2 }"> <kbd>ARM Cortex-A8</kbd> </span> <kbd>800MHz</kbd> <br/><kbd>Freescale i.MX508</kbd> |
+|         |   |   |   |                                                                                                                                                                                                                  |
+|---------|---|---|---|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Release |   |   |   | <kbd>September 2011</kbd>                                                                                                                                                                                        |
+| Display |   |   |   | <kbd>6"</kbd> <kbd>600x800p</kbd> <kbd>8 bit Greyscale</kbd>                                                                                                                                                     |
+| OS      |   |   |   | <kbd>Linux (Amazon)</kbd>                                                                                                                                                                                        |
+| Memory  |   |   |   | <kbd>256 MB DDR</kbd>                                                                                                                                                                                            |
+| CPU     |   |   |   | <span v-mark.circle="{ color: '#F73201', strokeWidth:2, padding:[15, 15, 15, 15], iterations: 4, animationDuration: 1200}"> <kbd>ARM Cortex-A8</kbd> </span> <kbd>800MHz</kbd> <br/><kbd>Freescale i.MX508</kbd> |
 
 </div>
