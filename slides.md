@@ -3,7 +3,7 @@ theme: default
 background: ./assets/img/doom_bg.png
 title: K4 DOOM
 titleTemplate: '%s'
-monaco: false
+monaco: true
 layout: cover
 transition: slide-left
 mdc: true

@@ -15,14 +15,28 @@ layout: two-cols
 ---
 
 # <div class="doom-gradient">Moustapha AGACK</div>
-Full Stack Developer <br/><br/>
+Full Stack Developer (and lots of Cloud) <br/><br/>
 Smash my keyboard for a living—results vary, but sometimes cool stuff happens
+
+
+@Zenika Lyon + @Homeserve 
 
 
 [bento.me/mouss](https://bento.me/mouss)
 
 [Twitter @mousstoh](https://x.com/home)
 
+
+ <br />
+ <br />
+ <br />
+ <br />
+
+<streamline-computer-screen-1-screen-device-electronics-monitor-diplay-computer class="source-icon"/>[moussto/talk-k4-doom-slides](https://github.com/Moussto/talk-k4-doom-slides/)  
+
+<br/>
+
+<streamline-programming-script-file-code-1-code-files-angle-programming-file-bracket class="source-icon"/>[moussto/k4-doom](https://github.com/Moussto/k4-doom) 
 
 ::right::
 
@@ -45,7 +59,7 @@ Smash my keyboard for a living—results vary, but sometimes cool stuff happens
 | Zenika Friends 🙏🏽         |                                                                                                     |                                                                                |
 
 <br/>
-
+<br/><br/><br/>
 
 
 <div class="flex flex-row justify-end">
@@ -57,8 +71,14 @@ Smash my keyboard for a living—results vary, but sometimes cool stuff happens
 
 
 <style>
+.source-icon {
+    height: 13px;
+    width: 13px;
+    margin-right: 10px;
+}
+
 .thanks {
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.7px);

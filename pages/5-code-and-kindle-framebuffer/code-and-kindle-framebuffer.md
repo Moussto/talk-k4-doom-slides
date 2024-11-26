@@ -47,6 +47,13 @@ src: /components/stream-on-term.md
 ---
 layout: default
 ---
+
+<<< @/pages/5-code-and-kindle-framebuffer/assets/snippets/fb0.c c {all|1|3|6-8|10-16|20-26|all}
+
+
+---
+layout: default
+---
 # color to gresycale -> latex ->  fb0 -> update display
 
 show dg frame code, 
@@ -66,10 +73,11 @@ font-size: 2rem
 </style>
 
 ---
-layout: center
+layout: default
 ---
-# Lets code the inputs, easy stuff, reverse mapping
-show /input and how to lock the file
+# <span class="doom-gradient">Inputs</span> <code>/dev/input/event1</code>
+
+<<< @/pages/5-code-and-kindle-framebuffer/assets/snippets/inputs.c c {all|1|3|5-12|13|18|21|all}
 
 ---
 layout: center

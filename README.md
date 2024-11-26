@@ -6,7 +6,8 @@ TODO
 - polish cross compilation memes and enchainement
 - Excalidraw black engine book
 - Add docker image size screen
-- add custom code theme orange ?
+- add custom shiki theme orange ? + change size on big 
+- chnage <code> size on h1
 
 Ressources
 https://www.youtube.com/watch?v=ico4fJfohMQ
