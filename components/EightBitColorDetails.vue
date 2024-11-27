@@ -50,16 +50,16 @@ const binaryValue = computed(() => toBinary(value.value).padStart(8, "0"));
 }
 
 .range input{
-  -webkit-appearance:none;
   height:4px;
+  width:125px;
   border-radius:5px;
   background-color: var(--orange-doom-shade-4);
   outline:none;
 }
-.range input::-webkit-slider-thumb{
+.range input::-moz-range-thumb {
   -webkit-appearance:none;
-  width:10px;
-  height:10px;
+  width:7px;
+  height:7px;
   border-radius:50%;
   background-color:var(--orange-doom-shade-4);
 }

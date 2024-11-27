@@ -70,10 +70,6 @@ kbd {
     border-color: var(--orange-doom-shade-1) !important;
 }
 
-.slidev-code {
-    background: #eff1f5;
-}
-
 li::marker {
     color: var(--orange-doom-shade-1);
     font-size: 25px;

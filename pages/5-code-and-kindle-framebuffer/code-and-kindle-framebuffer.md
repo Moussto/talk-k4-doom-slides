@@ -20,7 +20,8 @@ layout: two-cols
 - ### 8 bit encoded
 <br />
 
-- ### ~~50~~ 256 nuances de gris possibles
+- ### <span class="gidot-easter-egg" v-mark.strike-through="{ color: 'white', strokeWidth:1, iterations: 3, animationDuration: 4000, delay: 1500}" >50 Shades Of Grey</span>
+- ### <span>256 nuances de gris possibles</span>
 
 <eight-bit-color-details />
 
@@ -32,8 +33,17 @@ layout: two-cols
 </v-clicks>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
 img {
     height: 400px;
+}
+
+.gidot-easter-egg {
+    font-size: 25px;
+    font-family: "GFS Didot", serif;
+    font-weight: 400;
+    font-style: italic;
 }
 </style>
 
@@ -45,11 +55,10 @@ src: /components/stream-on-term.md
 
 
 ---
-layout: default
+layout: center
 ---
 
 <<< @/pages/5-code-and-kindle-framebuffer/assets/snippets/fb0.c c {all|1|3|6-8|10-16|20-26|all}
-
 
 ---
 layout: default
@@ -75,11 +84,21 @@ font-size: 2rem
 ---
 layout: default
 ---
-# <span class="doom-gradient">Inputs</span> <code>/dev/input/event1</code>
+# <span class="doom-gradient">Inputs</span> <code class='title-code'>/dev/input/event1</code>
 
 <<< @/pages/5-code-and-kindle-framebuffer/assets/snippets/inputs.c c {all|1|3|5-12|13|18|21|all}
+
+<style>
+.title-code {
+    font-size: 0.7em
+}
+</style>
+
+---
+src: /components/stream-on-term.md
+---
 
 ---
 layout: center
 ---
-# Demo ? c'est de la merde pwoin pwoin pwoin
+# Demo ? c'est de la merde pwoin pwoin pwoin meme ? 

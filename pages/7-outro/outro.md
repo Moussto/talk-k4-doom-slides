@@ -1,13 +1,7 @@
-# Outro
-
-You can split your slides.md into multiple files and organize them as you want using the `src` attribute.
-
-Stuff here
-
 ---
 layout: center
 ---
-# What i learned
+# What I learned ?
 
 
 ---
@@ -18,7 +12,10 @@ layout: two-cols
 Full Stack Developer (and lots of Cloud) <br/><br/>
 Smash my keyboard for a living—results vary, but sometimes cool stuff happens
 
-
+<div grid="~ cols-2 gap-1">
+<img src="/pages/7-outro/assets/zenika.png" width="100px"/>
+<img src="/pages/7-outro/assets/homeserve.png" width="100px"/>
+</div>
 @Zenika Lyon + @Homeserve 
 
 
@@ -47,19 +44,19 @@ Smash my keyboard for a living—results vary, but sometimes cool stuff happens
 
 
 
-|                             |                                                                                                     |                                                                                |
-|-----------------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| Game Engine Black Book DOOM | [Fabien Sanglard](https://fabiensanglard.net/gebbdoom/)                                             | <streamline-interface-content-book-content-books-book-close/>                  |
-| Kindle Developer's Corner   | [Mobilereads.com](https://www.mobileread.com/forums/forumdisplay.php?f=150)                         | <streamline-interface-layout-2-column-header-layout-layouts-masthead-sidebar/> |
-| Doomgeneric                 | [ozkl/doomgeneric](https://github.com/ozkl/doomgeneric)                                             | <streamline-code-monitor-1 />                                                  |
-| Toolchain Types             | [Crosstool-NG](https://crosstool-ng.github.io/docs/toolchain-types/)                                | <streamline-interface-file-text-text-common-file />                            |
-| Kindle Hacks                | [Sotiris Papatheodorou](https://git.sr.ht/~sotirisp/kindle-hacks)                                   | <streamline-code-monitor-1 />                                                  |
-| Dithering Eleven Algorithms | [Tanner Helland](https://tannerhelland.com/2012/12/28/dithering-eleven-algorithms-source-code.html) | <streamline-interface-file-text-text-common-file />                            |
-| Error Diffusion Dithering   | [Computerphile](https://www.youtube.com/watch?v=ico4fJfohMQ)                                        | <streamline-computer-logo-youtube-youtube-clip-social-video/>                  |
-| Zenika Friends 🙏🏽         |                                                                                                     |                                                                                |
+|                                                   |                                                                                                                                      |                                                                                |
+|---------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Game Engine Black Book DOOM                       | [Fabien Sanglard](https://fabiensanglard.net/gebbdoom/)                                                                              | <streamline-interface-content-book-content-books-book-close/>                  |
+| Kindle Developer's Corner                         | [Mobilereads.com](https://www.mobileread.com/forums/forumdisplay.php?f=150)                                                          | <streamline-interface-layout-2-column-header-layout-layouts-masthead-sidebar/> |
+| Doomgeneric                                       | [ozkl/doomgeneric](https://github.com/ozkl/doomgeneric)                                                                              | <streamline-code-monitor-1 />                                                  |
+| Toolchain Types                                   | [Crosstool-NG](https://crosstool-ng.github.io/docs/toolchain-types/)                                                                 | <streamline-interface-file-text-text-common-file />                            |
+| Kindle Hacks                                      | [Sotiris Papatheodorou](https://git.sr.ht/~sotirisp/kindle-hacks)                                                                    | <streamline-code-monitor-1 />                                                  |
+| Dithering Eleven Algorithms                       | [Tanner Helland](https://tannerhelland.com/2012/12/28/dithering-eleven-algorithms-source-code.html)                                  | <streamline-interface-file-text-text-common-file />                            |
+| Error Diffusion Dithering                         | [Computerphile](https://www.youtube.com/watch?v=ico4fJfohMQ)                                                                         | <streamline-computer-logo-youtube-youtube-clip-social-video/>                  |
+| Dithering Implementation for Eink Display Panel   | [Daiyu Ko](https://community.nxp.com/t5/i-MX-Processors-Knowledge-Base/Dithering-Implementation-for-Eink-Display-Panel/ta-p/1100219) | <streamline-computer-logo-youtube-youtube-clip-social-video/>                  |
+| Zenika Friends 🙏🏽                               |                                                                                                                                      |                                                                                |
 
 <br/>
-<br/><br/><br/>
 
 
 <div class="flex flex-row justify-end">

@@ -1,30 +1,37 @@
-# FPS AND DITHERING
+---
+layout: statement
+---
+<h1 class="doom-gradient">
+🏃‍♂️‍➡️ vitesse d'output framebuffer > vitesse d'update de l'encre
+</h1>
 
-You can split your slides.md into multiple files and organize them as you want using the `src` attribute.
+---
+layout: full
+---
+# <span class="doom-gradient">Refresh rates</span>
 
 
-Stuff here
+|                       |                   |
+|-----------------------|-------------------|
+| 8 bit / 4 bit / 2 bit | 1 bit  (Mode A2)  | 
+| <kbd>~500-600ms</kbd> | <kbd>125 ms</kbd> |
+
+
+Meme about speed rates
+
+---
+src: /components/stream-on-term.md
+---
 
 ---
 layout: center
 ---
-# Display modes
-
-
----
-layout: center
----
-# Demo an A2 tres moche
+# Dithering = noise diffusion, theoriticla explnation
 
 ---
 layout: center
 ---
-# Dithering theoritical explanation
-
----
-layout: center
----
-# Dithering DEMO
+# Dithering component
 
 ---
 layout: center

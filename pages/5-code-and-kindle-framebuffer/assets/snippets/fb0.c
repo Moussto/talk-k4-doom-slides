@@ -1,4 +1,4 @@
-void DG_Init() { frameBuffer = open(KINDLE_FRAME_BUFFER_PATH, O_RDWR); }
+void DG_Init() { frameBuffer = open("/dev/fb0", O_RDWR); }
 
 void DG_DrawFrame() {
     uint8_t memory_framebuffer[SCREEN_WIDTH * SCREEN_HEIGHT] = {0};
