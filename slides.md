@@ -3,16 +3,16 @@ theme: default
 background: ./assets/img/doom_bg.png
 title: K4 DOOM
 titleTemplate: '%s'
-monaco: false
+monaco: true
 layout: cover
 transition: slide-left
 mdc: true
 overviewSnapshots: true
+favicon: '/assets/favicon.svg'
 
 fonts:
   sans: League Spartan
   weights: '100,200,300,400,500,600,700,800,900'
-
   mono: Fira Code
 
 themeConfig:
@@ -57,4 +57,8 @@ src: ./pages/5-code-and-kindle-framebuffer/code-and-kindle-framebuffer.md
 
 ---
 src: ./pages/6-fps-and-dithering/fps-and-dithering.md
+---
+
+---
+src: ./pages/7-outro/outro.md
 ---

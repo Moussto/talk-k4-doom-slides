@@ -1,6 +1,103 @@
-# FPS AND DITHERING
+---
+layout: statement
+---
+<h1 class="doom-gradient">
+vitesse write framebuffer > vitesse maj e-ink
+</h1>
 
-You can split your slides.md into multiple files and organize them as you want using the `src` attribute.
+
+<img absolute class="bottom-0 right-0"  src="/pages/6-fps-and-dithering/assets/surpirsed.png" h-50/>
 
 
-Stuff here
+---
+layout: default
+---
+# <span class="doom-gradient">Display mode rates</span>
+
+
+<br/>
+
+<div v-click>
+
+## Greyscale 8 bit mode ~600ms
+
+</div>
+
+<div v-click>
+$$
+\textcolor{Grey}{I_{\text{gray}}} = 0.2989 \cdot \textcolor{red}{R} + 0.5870 \cdot \textcolor{green}{G} + 0.1140 \cdot \textcolor{blue}{B}
+$$
+</div>
+
+<br />
+<br />
+
+<div v-click>
+
+## B/W 1 bit mode ~125ms
+
+</div>
+
+<div v-click>
+$$
+\textcolor{Grey}{I_{\text{gray}}} = 0.2989 \cdot \textcolor{red}{R} + 0.5870 \cdot \textcolor{green}{G} + 0.1140 \cdot \textcolor{blue}{B}
+$$
+</div>
+
+<div v-click>
+$$
+\textcolor{White}C_{\text{Black/White}} = 0 \longleftarrow \textcolor{Grey}{I_{\text{gray}}} \longrightarrow 255 
+$$
+</div>
+
+<style>
+.katex {
+font-size: 2rem
+}
+</style>
+
+---
+src: /components/stream-on-term.md
+---
+
+---
+layout: default
+---
+# <span class="doom-gradient">Dithering Error Diffusion</span>
+
+<div class="flex w-full h-full items-center justify-center">
+<img src="/pages/6-fps-and-dithering/assets/floyd-steinberg.png" h-90/>
+</div>
+
+---
+layout: full
+---
+
+<div class="grid grid-flow-col auto-cols-max">
+<DitheringDemo />
+<img src="/pages/6-fps-and-dithering/assets/floyd-steinberg.png" h-50 m-10 mt-25/>
+</div>
+
+---
+layout: center
+---
+<DitherImage :badge-text="'Original'" :image-url="'/pages/6-fps-and-dithering/assets/spongebob.png'"></DitherImage>
+
+---
+layout: center
+---
+<DitherImage :badge-text="'Greyscale'" :image-url="'/pages/6-fps-and-dithering/assets/spongebob.png'" :effect="'greyscale'"><</DitherImage>
+
+---
+layout: center
+---
+<DitherImage :badge-text="'1 bit (B/W)'" :image-url="'/pages/6-fps-and-dithering/assets/spongebob.png'" :effect="'bw'"></DitherImage>
+
+---
+layout: center
+---
+<DitherImage :badge-text="'1 Bit dithered'" :image-url="'/pages/6-fps-and-dithering/assets/spongebob.png'" :effect="'floyd-steinberg'"></DitherImage>
+
+---
+src: /components/stream-on-term.md
+---

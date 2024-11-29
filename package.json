@@ -9,12 +9,17 @@
     "eject": "slidev theme eject"
   },
   "dependencies": {
-    "@slidev/cli": "0.50.0-beta.5",
+    "@slidev/cli": "0.50.0-beta.7",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "vue": "3.5.12"
   },
   "devDependencies": {
-    "@img-comparison-slider/vue": "^8.0.0"
+    "@iconify-json/mdi": "^1.2.1",
+    "@iconify-json/streamline": "^1.2.1",
+    "@types/floyd-steinberg": "^1.0.3",
+    "@vueuse/sound": "^2.0.1",
+    "floyd-steinberg": "^1.0.6",
+    "jimp": "^1.6.0"
   }
 }

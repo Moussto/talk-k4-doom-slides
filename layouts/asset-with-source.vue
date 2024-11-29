@@ -28,10 +28,11 @@ const openSource = () => {
   <div class="slidev-layout asset-with-source h-full w-full">
     <div class="my-auto ">
       <div class="asset-content flex flex-col">
-        <SlidevVideo autoplay autoreset="slide" border="rounded" v-if="props.videoPath" :style="{'max-width': maxWidth}">
+        <img :src="videoPath" v-if="videoPath.includes('jpeg')" />
+        <SlidevVideo v-else autoplay autoreset="slide" border="rounded" v-if="props.videoPath" :style="{'max-width': maxWidth}">
             <source :src="videoPath" type="video/webm" /> <!-- Always webm for now, change this shit -->
         </SlidevVideo>
-      <div class="asset-source" @click="openSource"><p>{{ props.source }}</p></div>
+      <div class="asset-source" @click="openSource">{{ props.source }}</div>
       </div>
     </div>
   </div>
@@ -40,20 +41,6 @@ const openSource = () => {
 
 <style>
 
-.asset-source {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--silver);
-  font-size: 1rem;
-  font-weight: lighter;
-  font-style: italic;
-}
-
-.asset-source:hover {
-  cursor: pointer;
-  font-weight: normal;
-}
 
 .asset-content {
   display: flex;
@@ -61,6 +48,10 @@ const openSource = () => {
   align-items: center;
 }
 
-
+.asset-video {
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAA2klEQVQ4T+WVUQ6DIAyGW/fkdplF738FbzN5Gqw/FUSJc6g8rYkJqfJZWvqXx44d08rgcPA18tj5JZZwfTVHbARKEaJft0P+ny2O6WW/D0ANS4UmVgIM29aMRaRHgEuwpotfEimWZ4AR/JRTC4xRqHtBDvfKhFT4418RZZqGf4eOXSOFsllT7RVksxnkBlTIKdWAVom0AhQdWiGnHkpOJIAeF7Rq0OZJ+rwKnhKVWf6CSPtLp7J1RAdSPbXCyUQa8HZ4/9wMEZhMDzb9TcYBho+moNjCCMNBJ/AHFJSNa/Sc/xUAAAAASUVORK5CYII=") 7 /  7px / 0 round;
+    border-width:  2px;
+    border-style:  solid;
+}
 
 </style>
