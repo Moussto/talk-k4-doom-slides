@@ -71,14 +71,26 @@ maxWidth: 90%
 
 
 ---
-layout: full
+layout: default
 ---
+
+<div class="flex w-full  items-center justify-center">
+
+<mdi-github class="github-icon"/>   [id-Software/DOOM](https://github.com/id-Software/DOOM)
+
+</div>
+
 <img absolute class="bottom-0 left-10"  src="/pages/1-wtf-is-doom/assets/doom_github_source_only.png" w-150/>
-<img v-click  :initial="{ x: 50 }" :enter="{ x: 0 }" absolute class="bottom-0 right-10"  src="/pages/1-wtf-is-doom/assets/doom_github_about.png" h-100/>
+<img absolute class="bottom-0 right-10"  src="/pages/1-wtf-is-doom/assets/doom_github_about.png" h-100/>
 
 <style>
-.slidev-layout {
-    position: relative;
-    padding: 0;
+a {
+    font-size: 2rem
+}
+
+.github-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
 }
 </style>

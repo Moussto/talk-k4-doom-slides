@@ -21,12 +21,12 @@ importers:
         specifier: 3.5.12
         version: 3.5.12(typescript@5.6.3)
     devDependencies:
+      '@iconify-json/mdi':
+        specifier: ^1.2.1
+        version: 1.2.1
       '@iconify-json/streamline':
         specifier: ^1.2.1
         version: 1.2.1
-      '@img-comparison-slider/vue':
-        specifier: ^8.0.0
-        version: 8.0.0
       '@types/floyd-steinberg':
         specifier: ^1.0.3
         version: 1.0.3
@@ -488,6 +488,9 @@ packages:
   '@iconify-json/carbon@1.2.4':
     resolution: {integrity: sha512-DhW2jjMVGwV0DLHc0cmDYohdtGxMra8UuwgjHrryPy+rQX4gXhJwCBBVP2h2UG/92AoRCTn7zUJve4WvY5MLYg==}
 
+  '@iconify-json/mdi@1.2.1':
+    resolution: {integrity: sha512-dSkQU78gsZV6Yxnq78+LuX7jzeFC/5NAmz7O3rh558GimGFcwMVY/OtqRowIzjqJBmMmWZft7wkFV4TrwRXjlg==}
+
   '@iconify-json/ph@1.2.1':
     resolution: {integrity: sha512-x0DNfwWrS18dbsBYOq3XGiZnGz4CgRyC+YSl/TZvMQiKhIUl1woWqUbMYqqfMNUBzjyk7ulvaRovpRsIlqIf8g==}
 
@@ -502,9 +505,6 @@ packages:
 
   '@iconify/utils@2.1.33':
     resolution: {integrity: sha512-jP9h6v/g0BIZx0p7XGJJVtkVnydtbgTgt9mVNcGDYwaa7UhdHdI9dvoq+gKj9sijMSJKxUPEG2JyjsgXjxL7Kw==}
-
-  '@img-comparison-slider/vue@8.0.0':
-    resolution: {integrity: sha512-1gir2JlS8ZQLK2lzk4gIp6fuNvOR8UFXaPiHnBrF6fEwIXdMiI5veobi479FV6Tekj8CIhK+pLUPs+NvcOHd5g==}
 
   '@jimp/core@1.6.0':
     resolution: {integrity: sha512-EQQlKU3s9QfdJqiSrZWNTxBs3rKXgO2W+GxNXDtwchF3a4IqxDheFX1ti+Env9hdJXDiYLp2jTRjlxhPthsk8w==}
@@ -2024,9 +2024,6 @@ packages:
     resolution: {integrity: sha512-541xKlUw6jr/6gGuk92F+mYM5zaFAc5ahphvkqvNe2bQ6gVBkd6bfrmVJ2t4KDAfikAYZyIqTnktX3i6/aQDrQ==}
     engines: {node: '>=16.x'}
     hasBin: true
-
-  img-comparison-slider@8.0.6:
-    resolution: {integrity: sha512-ej4de7mWyjcXZvDgHq8K2a/dG8Vv+qYTdUjZa3cVILf316rLtDrHyGbh9fPvixmAFgbs30zTLfmaRDa7abjtzw==}
 
   immediate@3.0.6:
     resolution: {integrity: sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==}
@@ -3633,6 +3630,10 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
+  '@iconify-json/mdi@1.2.1':
+    dependencies:
+      '@iconify/types': 2.0.0
+
   '@iconify-json/ph@1.2.1':
     dependencies:
       '@iconify/types': 2.0.0
@@ -3658,10 +3659,6 @@ snapshots:
       mlly: 1.7.3
     transitivePeerDependencies:
       - supports-color
-
-  '@img-comparison-slider/vue@8.0.0':
-    dependencies:
-      img-comparison-slider: 8.0.6
 
   '@jimp/core@1.6.0':
     dependencies:
@@ -5778,8 +5775,6 @@ snapshots:
   image-size@1.1.1:
     dependencies:
       queue: 6.0.2
-
-  img-comparison-slider@8.0.6: {}
 
   immediate@3.0.6: {}
 

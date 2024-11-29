@@ -15,8 +15,8 @@
     "vue": "3.5.12"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.2.1",
     "@iconify-json/streamline": "^1.2.1",
-    "@img-comparison-slider/vue": "^8.0.0",
     "@types/floyd-steinberg": "^1.0.3",
     "@vueuse/sound": "^2.0.1",
     "floyd-steinberg": "^1.0.6",

@@ -76,7 +76,3 @@ layout: default
 src: /components/stream-on-term.md
 ---
 
----
-layout: center
----
-# Demo ? c'est de la merde pwoin pwoin pwoin meme ? 

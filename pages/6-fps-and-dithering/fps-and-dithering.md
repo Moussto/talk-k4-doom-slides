@@ -16,13 +16,45 @@ layout: default
 
 
 <br/>
-<br/>
-<br/>
-<br/>
 
-# 8 bit mode : ~500-600ms
-# 1 bit mode: ~125ms
+<div v-click>
 
+## Greyscale 8 bit mode ~600ms
+
+</div>
+
+<div v-click>
+$$
+\textcolor{Grey}{I_{\text{gray}}} = 0.2989 \cdot \textcolor{red}{R} + 0.5870 \cdot \textcolor{green}{G} + 0.1140 \cdot \textcolor{blue}{B}
+$$
+</div>
+
+<br />
+<br />
+
+<div v-click>
+
+## B/W 1 bit mode ~125ms
+
+</div>
+
+<div v-click>
+$$
+\textcolor{Grey}{I_{\text{gray}}} = 0.2989 \cdot \textcolor{red}{R} + 0.5870 \cdot \textcolor{green}{G} + 0.1140 \cdot \textcolor{blue}{B}
+$$
+</div>
+
+<div v-click>
+$$
+\textcolor{White}C_{\text{Black/White}} = 0 \longleftarrow \textcolor{Grey}{I_{\text{gray}}} \longrightarrow 255 
+$$
+</div>
+
+<style>
+.katex {
+font-size: 2rem
+}
+</style>
 
 ---
 src: /components/stream-on-term.md

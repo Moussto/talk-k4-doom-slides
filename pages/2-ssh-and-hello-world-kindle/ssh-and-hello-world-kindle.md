@@ -7,7 +7,7 @@ backgroundSize: contain
     <h1>Kindle 4th Gen</h1>
     <p v-motion v-click  :initial="{ y: -50 }" :enter="{ y: 0 }">(qui date un peu...)</p>
     <div v-click>
-    <div  v-if="$clicks > 1">
+    <div  v-if="$clicks > 1" class="tab">
 
 |         |   |   |   |                                                                             |
 |---------|---|---|---|-----------------------------------------------------------------------------|
@@ -20,6 +20,12 @@ backgroundSize: contain
 </div>
 </div>
 </div>
+
+<style>
+.tab {
+    transition: all 3s ease;
+}
+</style>
 
 ---
 layout: center
@@ -61,8 +67,8 @@ layout: default
     <br/>
     <div v-click="[6, 8]"><h3>&nbsp&nbsp&nbsp&nbsp Package USBNetwork <code>kindle-usbnetwork-0.57.N-k4.zip</code></h3></div>
     <br/>
-    <div v-click="[7, 8]"> <h3>&nbsp&nbsp&nbsp&nbsp <code>touch .config</code></h3><br/>
-        <div>
+    <div v-click="[7, 8]">
+        <div ml-5 w-150>
 ```shell
 #!/bin/sh
 # NOTE: The K4 has a specific default

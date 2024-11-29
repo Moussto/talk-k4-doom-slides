@@ -38,9 +38,6 @@ Smash my keyboard for a living—results vary, but sometimes cool stuff happens
 
 ######  S/O <streamline-hearts-symbol />
 
-
-
-
 |                                   |                                                                                                                                      |                                                                                 |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | Game Engine Black Book DOOM       | [Fabien Sanglard](https://fabiensanglard.net/gebbdoom/)                                                                              | <streamline-interface-content-book-content-books-book-close/>                   |
