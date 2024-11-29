@@ -8,6 +8,10 @@ const props = defineProps({
     type: String,
     required: true,
   },
+  badgeText: {
+    type: String,
+    default: ""
+  },
   effect: {
     type: String,
     default: ""
@@ -47,7 +51,10 @@ onBeforeMount( async () => {
 </script>
 
 <template>
+  <div class="dither-image-container">
+    <span class="badge" v-if="badgeText">{{props.badgeText.toUpperCase()}}</span>
     <img :src="dithered"  />
+  </div>
 </template>
 
 <style scoped>
@@ -59,4 +66,24 @@ img {
   padding: 5px;
   background-color: #f5f5f5;
 }
+.dither-image-container {
+  position:relative;
+  padding-top:20px;
+  display:inline-block;
+}
+
+.badge{
+  position: absolute;
+  right:-20px;
+  top:10px;
+  background: var(--orange-doom-shade-4);
+  text-align: center;
+  border-radius: 6px;
+  color: wheat;
+  font-weight: bolder;
+  padding: .35em .4em .3em;
+  font-size: .85em;
+  line-height: 1;
+}
+
 </style>

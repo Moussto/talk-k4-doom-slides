@@ -6,13 +6,9 @@ TODO
 - polish cross compilation memes and enchainement
 - Excalidraw black engine book
 - Add docker image size screen
-- add custom shiki theme orange ? + change size on big 
 - chnage <code> size on h1
 
-Ressources
-https://www.youtube.com/watch?v=ico4fJfohMQ
-https://tannerhelland.com/2012/12/28/dithering-eleven-algorithms-source-code.html
-https://www.researchgate.net/publication/353243528/figure/fig3/AS:11431281122735432@1677516412257/Floyd-Steinberg-error-diffusion-matrix.jpg
 
-
-
+$$
+I_{\text{gray}} = 0.2989 \cdot \textcolor{red}{R} + 0.5870 \cdot \textcolor{green}{G} + 0.1140 \cdot \textcolor{blue}{B}
+$$

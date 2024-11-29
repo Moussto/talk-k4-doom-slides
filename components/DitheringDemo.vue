@@ -3,7 +3,7 @@ import { reactive } from 'vue';
 
 const initValues = [
   50, 100, 190, 40, 240,
-  200, 125, 5, 200, 10,
+  200, 120, 5, 200, 10,
   50, 170, 35, 100, 125,
   250, 65, 130, 170, 200,
   150, 55, 220, 40, 120
@@ -95,8 +95,8 @@ layout: center
 
   padding: 1rem;
   border-radius: 1rem;
-  background-color: rgba(45, 52, 77, 0.4);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  border: 1px solid var(--orange-doom-shade-1);
 }
 
 .pixel-cell {
@@ -123,17 +123,17 @@ layout: center
   bottom: 0px;
   right: 0px;
 
-  background: rgba(255, 192, 203, 0.46);
+  background: var(--orange-doom-shade-3);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7.1px);
   -webkit-backdrop-filter: blur(7.1px);
   border-top-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 7px;
 
 
   padding: 2px 12px;
   font-size: 10pt;
-  color: darkred ;
+  color: black ;
   transition: background-color 3s ease;
 }
 
