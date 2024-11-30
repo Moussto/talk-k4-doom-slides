@@ -19,11 +19,8 @@ layout: default
 
 <div v-click>
 
-## Greyscale 8 bit mode ~600ms
+## Greyscale 8 bit mode **~600ms**
 
-</div>
-
-<div v-click>
 $$
 \textcolor{Grey}{I_{\text{gray}}} = 0.2989 \cdot \textcolor{red}{R} + 0.5870 \cdot \textcolor{green}{G} + 0.1140 \cdot \textcolor{blue}{B}
 $$
@@ -34,7 +31,7 @@ $$
 
 <div v-click>
 
-## B/W 1 bit mode ~125ms
+## B/W 1 bit mode **~125ms**
 
 </div>
 

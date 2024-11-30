@@ -63,10 +63,9 @@ maxWidth: 90%
 
 ---
 layout: asset-with-source
-videoPath: /pages/1-wtf-is-doom/assets/boomdoom.jpeg
-originalSource: https://x.com/Foone/status/1302293748894769153
-source: @Foon - You were trying to get pregnant, right?
-maxWidth: 90%
+videoPath: /pages/1-wtf-is-doom/assets/boomdoom.png
+originalSource: https://www.smbc-comics.com/comic/2011-02-17
+source: smbc-comics
 ---
 
 
