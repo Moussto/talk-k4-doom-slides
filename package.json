@@ -5,7 +5,7 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export",
+    "export": "slidev export --dark --with-clicks",
     "eject": "slidev theme eject"
   },
   "dependencies": {
@@ -20,6 +20,7 @@
     "@types/floyd-steinberg": "^1.0.3",
     "@vueuse/sound": "^2.0.1",
     "floyd-steinberg": "^1.0.6",
-    "jimp": "^1.6.0"
+    "jimp": "^1.6.0",
+    "playwright-chromium": "^1.49.0"
   }
 }
