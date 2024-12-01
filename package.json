@@ -15,6 +15,7 @@
     "vue": "3.5.12"
   },
   "devDependencies": {
+    "@iconify-json/logos": "^1.2.3",
     "@iconify-json/mdi": "^1.2.1",
     "@iconify-json/streamline": "^1.2.1",
     "@types/floyd-steinberg": "^1.0.3",
