@@ -1,7 +1,7 @@
 ---
 layout: full
 dragPos:
-  square: 632,50,296,232
+  square: 289,29,570,447
 ---
 
 <RenderWhen context="visible" class="stream-on-term-container">
