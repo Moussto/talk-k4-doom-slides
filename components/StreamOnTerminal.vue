@@ -21,9 +21,7 @@ const startStream = () => {
 
     const constraints = {
       video: {
-        deviceId: {
-          exact: topWebcamDeviceId,
-        },
+        deviceId: topWebcamDeviceId
       },
     }
     navigator.mediaDevices.getUserMedia(constraints)

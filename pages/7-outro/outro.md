@@ -8,14 +8,15 @@ layout: center
 layout: two-cols
 ---
 
-# <div class="doom-gradient">Moustapha Agack</div>
+# <div class="doom-gradient">MOUSTAPHA AGACK</div>
 <div class="flex flex-col h-full">
 
 <div class="w-4/5 h-3/4">
 
-##### Smash my keyboard for a living—results vary, but sometimes cool stuff happens
+##### _Smash my keyboard for a living—results vary, but sometimes cool stuff happens_
 
 <br/>
+
 
 ##### Full Stack Engineer @ Zenika & Homeserve
 
@@ -23,9 +24,16 @@ layout: two-cols
 <br/>
 <br/>
 
+###### (hit me up and say hello ✌🏾)
+<br/>
+<div class="grid grid-cols-2 gap-0.3">
 
-##### <logos-twitter class="social-icon"/> mousstoh
 ##### <logos-bluesky class="social-icon"/> moussto
+##### <mdi-github class="social-icon"/> moussto
+##### <logos-twitter class="social-icon"/> mousstoh
+##### <logos-linkedin-icon class="social-icon"/> moustapha-agack
+</div>
+
 
 </div>
 
@@ -91,6 +99,8 @@ layout: two-cols
     -webkit-backdrop-filter: blur(4.7px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/assets/img/doom_bg.png");
+    background-position: center top;
 }
 
 
