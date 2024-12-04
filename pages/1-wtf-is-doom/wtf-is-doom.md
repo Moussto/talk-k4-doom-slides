@@ -67,6 +67,9 @@ videoPath: /pages/1-wtf-is-doom/assets/boomdoom.png
 originalSource: https://www.smbc-comics.com/comic/2011-02-17
 source: smbc-comics
 ---
+<div class='absolute flex top-15 w-full  justify-center'>
+<logos-reddit-icon mr-3/> r / CanItRunDoom
+</div>
 
 
 ---

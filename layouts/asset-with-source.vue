@@ -35,6 +35,7 @@ const isImage = () => props.videoPath?.includes('jpeg') || props.videoPath?.incl
             <source :src="videoPath" type="video/webm" /> <!-- Always webm for now, change this shit -->
         </SlidevVideo>
       <div class="asset-source" @click="openSource">{{ props.source }}</div>
+        <slot></slot>
       </div>
     </div>
   </div>

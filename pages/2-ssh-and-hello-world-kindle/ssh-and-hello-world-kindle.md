@@ -7,7 +7,7 @@ backgroundSize: contain
     <h1>Kindle 4th Gen</h1>
     <p v-motion v-click  :initial="{ y: -50 }" :enter="{ y: 0 }">(qui date un peu...)</p>
     <div v-click>
-    <div  v-if="$clicks > 1" class="tab">
+    <div  v-if="$clicks > 1" v-motion :initial="{ y: 50 }" :enter="{ y: 0 }" class="tab">
 
 |         |   |   |   |                                                                             |
 |---------|---|---|---|-----------------------------------------------------------------------------|
@@ -21,11 +21,6 @@ backgroundSize: contain
 </div>
 </div>
 
-<style>
-.tab {
-    transition: all 3s ease;
-}
-</style>
 
 ---
 layout: center
@@ -56,7 +51,7 @@ layout: default
 
 <br/>
 
-<img  v-click="[4, 5]" v-motion :initial="{ x: 100 }" :enter="{ x: 0 }" :leave="{ x: 100 }" absolute class="bottom-5 right-0" src="/pages/2-ssh-and-hello-world-kindle/assets/real_jailbreak.jpg" w-90>
+<img  v-click="[4, 5]" v-motion :initial="{ x: 100 }" :enter="{ x: 0 }" :leave="{ x: 100 }" absolute class="rounded bottom-5 right-0" src="/pages/2-ssh-and-hello-world-kindle/assets/real_jailbreak.jpg" w-90>
 
 <!--
 5 -> 8

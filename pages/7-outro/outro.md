@@ -99,7 +99,7 @@ layout: two-cols
     -webkit-backdrop-filter: blur(4.7px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 20px;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/assets/img/doom_bg.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("/assets/img/doom_bg.png");
     background-position: center top;
 }
 
