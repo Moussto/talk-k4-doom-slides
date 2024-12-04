@@ -22,11 +22,12 @@ layout: full
 
 
 ---
-layout: full
+layout: center
+clicks: 3
 ---
-Timeline
-
-Timeline stuff here
+<img v-if="$clicks <= 1 " v-click="[1, 2]" src="/pages/1-wtf-is-doom/assets/time-1.png" w-200/>
+<img v-if="$clicks > 1 && $clicks <= 2" v-click="[2, 3]" src="/pages/1-wtf-is-doom/assets/time-2.png" w-200/>
+<img v-if="$clicks > 2 && $clicks <= 3" v-click="[3]" src="/pages/1-wtf-is-doom/assets/time-3.png" w-200/>
 
 
 ---
