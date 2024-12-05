@@ -111,7 +111,8 @@ layout: center
 
   font-size: 15pt;
   font-weight: bold;
-  color: black;
+  color: whitesmoke;
+  -webkit-text-stroke: 1px black;
 
   position: relative;
   cursor: pointer;
@@ -123,6 +124,7 @@ layout: center
   bottom: 0px;
   right: 0px;
 
+  -webkit-text-stroke: 1px transparent;
   background: var(--orange-doom-shade-3);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7.1px);

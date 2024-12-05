@@ -3,6 +3,7 @@ layout: layout-with-sound
 useLayout: center
 image: /pages/3-cross-compilation/assets/sped_up.gif
 audioSourcePath: /pages/3-cross-compilation/assets/requiem_d_minor_7.mp3
+preload: true
 ---
 <div class="flex w-full h-full flex-col items-center justify-center">
     <h1 class="doom-gradient" v-motion :initial="{ opacity: 0, scale: 0.6 }" :enter="{ opacity: 1, scale: 1 }" :delay="500" :duration="9000">CROSS COMPILATION</h1>
@@ -59,7 +60,7 @@ layout: default
 5 -> 9
 -->
 
-## <span :class="{ 'is-done': $clicks >= 9 }" v-click="5">  <CheckIcon v-if="$clicks >= 9" class='check-icon'/> Step I : Installer crosstool-NG dans Docker</span>
+## <span :class="{ 'is-done': $clicks >= 9 }" v-click="5">  <CheckIcon v-if="$clicks >= 9" class='check-icon'/> Step I : Installer crosstool-NG sur Ubuntu (Docker) </span>
 <div v-if="$clicks >= 5 && $clicks < 9" v-motion :initial="{ x: 0 }" :leave="{ x: 50 }">
     <br/>
     <div v-click="[6, 9]"><h3>&nbsp&nbsp&nbsp&nbsp Installer crosstool-NG sur Ubuntu</h3></div>

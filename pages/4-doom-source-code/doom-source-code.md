@@ -10,6 +10,12 @@ layout: center
 <img src="/pages/4-doom-source-code/assets/blackbook.png" width="600" />
 
 ---
+layout: center
+---
+Image of WAD here + explnation od engine vs other wad games
+
+
+---
 layout: default
 ---
 
