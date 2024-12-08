@@ -2,7 +2,7 @@
 layout: two-cols
 ---
 
-# <span class="doom-gradient">Framebuffer</span> `/dev/fb0`
+# <span class="doom-gradient">Framebuffer</span> <code class='title-code'>/dev/fb0</code>
 
 <img v-click height="300" src="/pages/5-code-and-kindle-framebuffer/assets/k4-resolution.png">
 
@@ -65,12 +65,6 @@ layout: default
 # <span class="doom-gradient">Inputs</span> <code class='title-code'>/dev/input/event1</code>
 
 <<< @/pages/5-code-and-kindle-framebuffer/assets/snippets/inputs.c c {all|1|3|5-12|13|18|21|all}
-
-<style>
-.title-code {
-    font-size: 0.7em
-}
-</style>
 
 ---
 src: /components/stream-on-term.md

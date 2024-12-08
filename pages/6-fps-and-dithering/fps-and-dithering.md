@@ -2,7 +2,7 @@
 layout: statement
 ---
 <h1 class="doom-gradient">
-vitesse write framebuffer > vitesse maj e-ink
+fast writing > slow screen
 </h1>
 
 
@@ -11,6 +11,7 @@ vitesse write framebuffer > vitesse maj e-ink
 
 ---
 layout: default
+clicks: 5
 ---
 # <span class="doom-gradient">Display mode rates</span>
 
@@ -19,11 +20,8 @@ layout: default
 
 <div v-click>
 
-## Greyscale 8 bit mode ~600ms
+## Greyscale 8 bit mode <span v-click=5>**~600ms**</span>
 
-</div>
-
-<div v-click>
 $$
 \textcolor{Grey}{I_{\text{gray}}} = 0.2989 \cdot \textcolor{red}{R} + 0.5870 \cdot \textcolor{green}{G} + 0.1140 \cdot \textcolor{blue}{B}
 $$
@@ -34,7 +32,7 @@ $$
 
 <div v-click>
 
-## B/W 1 bit mode ~125ms
+## B/W 1 bit mode <span v-click=5>**~125ms**</span>
 
 </div>
 
@@ -63,7 +61,7 @@ src: /components/stream-on-term.md
 ---
 layout: default
 ---
-# <span class="doom-gradient">Dithering Error Diffusion</span>
+# <span class="doom-gradient">Error Diffusion Dithering</span>
 
 <div class="flex w-full h-full items-center justify-center">
 <img src="/pages/6-fps-and-dithering/assets/floyd-steinberg.png" h-90/>

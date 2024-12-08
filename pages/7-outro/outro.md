@@ -1,37 +1,80 @@
 ---
-layout: center
+layout: two-cols
+clicks: 5
 ---
-# What I learned ? / Victory animation
+# <div class="doom-gradient">Doom de Wish</div>
+
+<br />
+<br />
+
+<v-clicks>
+
+- <h1>Pas de son </h1>
+- <h1> Monochrome </h1>
+- <h1> Portrait mode </h1>
+- <h1> ~ 10 fps </h1>
+
+</v-clicks>
+
+::right:: 
+
+# <div class="doom-gradient" v-click=5>Mais...</div>
+
+<br />
+<br />
+
+<v-clicks>
+
+- <h1>Level up en C</h1>
+- <h1>❤️ X-Compilation <sup>(c'est faux)</sup></h1> 
+- <h1>Coder avec des limitations</h1> 
+- <h1>Internet Culture</h1>
+
+</v-clicks>
 
 
 ---
 layout: two-cols
 ---
 
-# <div class="doom-gradient">Moustapha AGACK</div>
-Full Stack Developer (and lots of Cloud) <br/><br/>
-Smash my keyboard for a living—results vary, but sometimes cool stuff happens
+# <div class="doom-gradient">MOUSTAPHA AGACK</div>
+<div class="flex flex-col h-full">
 
+<div class="w-4/5 h-3/4">
 
-@Zenika Lyon + @Homeserve 
-
-
-[bento.me/mouss](https://bento.me/mouss)
-
-[Twitter @mousstoh](https://x.com/home)
-
-
- <br />
- <br />
- <br />
- <br />
-
-<streamline-computer-screen-1-screen-device-electronics-monitor-diplay-computer class="source-icon"/>[moussto/talk-k4-doom-slides](https://github.com/Moussto/talk-k4-doom-slides/)  
+##### _Smash my keyboard for a living—results vary, but sometimes cool stuff happens_
 
 <br/>
 
-<streamline-programming-script-file-code-1-code-files-angle-programming-file-bracket class="source-icon"/>[moussto/k4-doom](https://github.com/Moussto/k4-doom) 
 
+##### Full Stack Engineer at <img src="./assets/zenika.png" width=65 pb-0.5 pl-1 pr-1 inline> and <img src="./assets/homeserve-inline.png" width=90 pl-1 pb-0.5 inline>
+
+<br/>
+<br/>
+<br/>
+
+###### (hit me up and say hello ✌🏾)
+<br/>
+<div class="grid grid-cols-2 gap-0.3">
+
+##### <logos-bluesky class="social-icon"/> moussto
+##### <mdi-github class="social-icon"/> moussto
+##### <logos-twitter class="social-icon"/> mousstoh
+##### <logos-linkedin-icon class="social-icon"/> moustapha-agack
+</div>
+
+
+</div>
+
+
+
+<div class="sources justify-self-end">
+
+###### <streamline-computer-screen-1-screen-device-electronics-monitor-diplay-computer class="source-icon"/>[moussto/talk-k4-doom-slides](https://github.com/Moussto/talk-k4-doom-slides/)
+###### <streamline-programming-script-file-code-1-code-files-angle-programming-file-bracket class="source-icon"/>[moussto/k4-doom](https://github.com/Moussto/k4-doom)
+</div>
+
+</div>
 ::right::
 
 <div class="thanks" w-full h-full>
@@ -51,9 +94,12 @@ Smash my keyboard for a living—results vary, but sometimes cool stuff happens
 | Zenika Friends 🙏🏽               |                                                                                                                                      |                                                                                 |
 
 <br/>
+<br/>
+<br/>
+<br/>
 
 
-<div class="flex flex-row justify-end">
+<div class="justify-self-end">
     <PoweredBySlidev class="slidev-thanks"/>
 </div>
 
@@ -68,6 +114,12 @@ Smash my keyboard for a living—results vary, but sometimes cool stuff happens
     margin-right: 10px;
 }
 
+.social-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
 .thanks {
     font-size: 12px;
     border-radius: 16px;
@@ -76,15 +128,16 @@ Smash my keyboard for a living—results vary, but sometimes cool stuff happens
     -webkit-backdrop-filter: blur(4.7px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("/assets/img/doom_bg.png");
+    background-position: center top;
 }
+
+
+
 
 td {
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
-}
-
-.slidev-thanks {
-    margin-top: 25px;
 }
 
 </style>

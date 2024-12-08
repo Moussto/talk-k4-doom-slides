@@ -4,6 +4,9 @@ import { onBeforeUnmount, onMounted } from "vue";
 
 let myStream: MediaStream = null
 
+// Ideao DC400
+const topWebcamDeviceId = "wp2nEOHn852ubwnrOShhTcO4pvVVP5MNk2RKsvRplyE="
+
 const stopStream = () => {
   console.log("Removing Webcam elements")
   myStream.getVideoTracks().forEach(track => track.stop());
@@ -12,8 +15,16 @@ const startStream = () => {
   console.log("Mounting Webcam elements")
   const video = document.querySelector("#webcam-video-on-top") as HTMLVideoElement;
   if (navigator.mediaDevices.getUserMedia) {
-    // TODO use constrainst to choose proper webcam
-    navigator.mediaDevices.getUserMedia({ video: true })
+    navigator.mediaDevices.enumerateDevices().then((devices) => console.log({devices}))
+    const con = navigator.mediaDevices.getSupportedConstraints()
+    console.log(con);
+
+    const constraints = {
+      video: {
+        deviceId: topWebcamDeviceId
+      },
+    }
+    navigator.mediaDevices.getUserMedia(constraints)
         .then((stream) => {
           myStream = stream;
           video.srcObject = myStream;

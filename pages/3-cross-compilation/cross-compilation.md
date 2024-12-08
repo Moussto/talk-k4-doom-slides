@@ -3,6 +3,7 @@ layout: layout-with-sound
 useLayout: center
 image: /pages/3-cross-compilation/assets/sped_up.gif
 audioSourcePath: /pages/3-cross-compilation/assets/requiem_d_minor_7.mp3
+preload: true
 ---
 <div class="flex w-full h-full flex-col items-center justify-center">
     <h1 class="doom-gradient" v-motion :initial="{ opacity: 0, scale: 0.6 }" :enter="{ opacity: 1, scale: 1 }" :delay="500" :duration="9000">CROSS COMPILATION</h1>
@@ -20,10 +21,13 @@ h1 {
 ---
 layout: center
 ---
-<v-switch>
-  <template #0> <img src="/pages/3-cross-compilation/assets/initial.png" width="800" /> </template>
-  <template #1> <img src="/pages/3-cross-compilation/assets/mac-arm.png" width="500" /> </template>
-</v-switch>
+<img src="/pages/3-cross-compilation/assets/initial.png" width="800" />
+
+
+---
+layout: center
+---
+<img src="/pages/3-cross-compilation/assets/mac-arm.png" width="500" />
 
 
 ---
@@ -35,7 +39,7 @@ layout: statement
 ---
 layout: default
 ---
-# <span class="doom-gradient">Toolchain</span> <code>arm-cortex_a8-linux-gnueabi-gcc</code>
+# <span class="doom-gradient">Toolchain</span> <code class='title-code' >arm-cortex_a8-linux-gnueabi-gcc</code>
 
 <br/>
 
@@ -59,7 +63,7 @@ layout: default
 5 -> 9
 -->
 
-## <span :class="{ 'is-done': $clicks >= 9 }" v-click="5">  <CheckIcon v-if="$clicks >= 9" class='check-icon'/> Step I : Installer crosstool-NG dans Docker</span>
+## <span :class="{ 'is-done': $clicks >= 9 }" v-click="5">  <CheckIcon v-if="$clicks >= 9" class='check-icon'/> Step I : Installer crosstool-NG sur Ubuntu (Docker) </span>
 <div v-if="$clicks >= 5 && $clicks < 9" v-motion :initial="{ x: 0 }" :leave="{ x: 50 }">
     <br/>
     <div v-click="[6, 9]"><h3>&nbsp&nbsp&nbsp&nbsp Installer crosstool-NG sur Ubuntu</h3></div>
@@ -89,7 +93,15 @@ layout: default
 ## <span :class="{ 'is-done': $clicks >= 12 }" v-click="10">  <CheckIcon v-if="$clicks >= 12" class='check-icon'/> Step II : Générer la toolchain</span>
 <div v-if="$clicks >= 10 && $clicks < 13" v-motion :initial="{ x: 0 }" :leave="{ x: 50 }">
     <br/>
-    <div v-click="[11, 12]"><h3>&nbsp&nbsp&nbsp&nbsp Attendre 32 minutes </h3></div>
+    <div v-click="[11, 12]">
+```shell{2}
+[INFO ]  Finalizing the toolchain directory: done in 7.09s (at 35:29)
+[INFO ]  Build completed at 20241024.190213 (elapsed: 35:28.74)
+[INFO ]  Finishing installation...
+```
+        <h3>&nbsp&nbsp&nbsp&nbsp Attendre 32 minutes </h3>
+
+</div>
 </div>
 
 ---

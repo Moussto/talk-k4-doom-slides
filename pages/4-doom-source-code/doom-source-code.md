@@ -3,11 +3,16 @@ layout: center
 ---
 <img src="/pages/4-doom-source-code/assets/engine.png" width="750" />
 
+---
+layout: center
+---
+<img src="/pages/4-doom-source-code/assets/waddoom.png" width="900" />
 
 ---
 layout: center
 ---
 <img src="/pages/4-doom-source-code/assets/blackbook.png" width="600" />
+
 
 ---
 layout: default
@@ -37,7 +42,7 @@ a {
 ---
 layout: default
 ---
-# <code> doomgeneric_kindle.c </code>
+# <span class="doom-gradient">Let's code</span> <code class='title-code'> doomgeneric_kindle.c </code>
 <br />
 
 <div class="w-full h-full flex  flex-col" >

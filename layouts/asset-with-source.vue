@@ -22,17 +22,20 @@ const openSource = () => {
   window.open(props.originalSource, '_blank').focus();
 }
 
+// Change this shit
+const isImage = () => props.videoPath?.includes('jpeg') || props.videoPath?.includes('png')
 </script>
 
 <template>
   <div class="slidev-layout asset-with-source h-full w-full">
     <div class="my-auto ">
       <div class="asset-content flex flex-col">
-        <img :src="videoPath" v-if="videoPath.includes('jpeg')" />
+        <img :src="videoPath" v-if="isImage()" />
         <SlidevVideo v-else autoplay autoreset="slide" border="rounded" v-if="props.videoPath" :style="{'max-width': maxWidth}">
             <source :src="videoPath" type="video/webm" /> <!-- Always webm for now, change this shit -->
         </SlidevVideo>
       <div class="asset-source" @click="openSource">{{ props.source }}</div>
+        <slot></slot>
       </div>
     </div>
   </div>

@@ -22,11 +22,12 @@ layout: full
 
 
 ---
-layout: full
+layout: center
+clicks: 3
 ---
-Timeline
-
-Timeline stuff here
+<img v-if="$clicks <= 1 " v-click="[1, 2]" src="/pages/1-wtf-is-doom/assets/time-1.png" w-200/>
+<img v-if="$clicks > 1 && $clicks <= 2" v-click="[2, 3]" src="/pages/1-wtf-is-doom/assets/time-2.png" w-200/>
+<img v-if="$clicks > 2 && $clicks <= 3" v-click="[3]" src="/pages/1-wtf-is-doom/assets/time-3.png" w-200/>
 
 
 ---
@@ -63,11 +64,13 @@ maxWidth: 90%
 
 ---
 layout: asset-with-source
-videoPath: /pages/1-wtf-is-doom/assets/boomdoom.jpeg
-originalSource: https://x.com/Foone/status/1302293748894769153
-source: @Foon - You were trying to get pregnant, right?
-maxWidth: 90%
+videoPath: /pages/1-wtf-is-doom/assets/boomdoom.png
+originalSource: https://www.smbc-comics.com/comic/2011-02-17
+source: smbc-comics
 ---
+<div class='absolute flex top-15 w-full  justify-center'>
+<logos-reddit-icon mr-3/> r / CanItRunDoom
+</div>
 
 
 ---
