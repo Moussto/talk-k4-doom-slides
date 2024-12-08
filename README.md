@@ -1,8 +1,3 @@
-TODO
-- victory slide
-- vitesse framebuffer better formulation
-
-
 Useful commands if your stupid ass forgets
 
 ```

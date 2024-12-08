@@ -2,7 +2,7 @@
 layout: statement
 ---
 <h1 class="doom-gradient">
-vitesse write framebuffer > vitesse maj e-ink
+fast writing > slow screen
 </h1>
 
 

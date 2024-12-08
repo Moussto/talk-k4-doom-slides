@@ -1,7 +1,36 @@
 ---
-layout: center
+layout: two-cols
+clicks: 5
 ---
-# What I learned ? / Victory animation
+# <div class="doom-gradient">Doom de Wish</div>
+
+<br />
+<br />
+
+<v-clicks>
+
+- <h1>Pas de son </h1>
+- <h1> Monochrome </h1>
+- <h1> Portrait mode </h1>
+- <h1> ~ 10 fps </h1>
+
+</v-clicks>
+
+::right:: 
+
+# <div class="doom-gradient" v-click=5>Mais...</div>
+
+<br />
+<br />
+
+<v-clicks>
+
+- <h1>Level up en C</h1>
+- <h1>❤️ X-Compilation <sup>(c'est faux)</sup></h1> 
+- <h1>Coder avec des limitations</h1> 
+- <h1>Internet Culture</h1>
+
+</v-clicks>
 
 
 ---
@@ -18,7 +47,7 @@ layout: two-cols
 <br/>
 
 
-##### Full Stack Engineer @ Zenika & Homeserve
+##### Full Stack Engineer at <img src="./assets/zenika.png" width=65 pb-0.5 pl-1 pr-1 inline> and <img src="./assets/homeserve-inline.png" width=90 pl-1 pb-0.5 inline>
 
 <br/>
 <br/>
@@ -99,7 +128,7 @@ layout: two-cols
     -webkit-backdrop-filter: blur(4.7px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 20px;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("/assets/img/doom_bg.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("/assets/img/doom_bg.png");
     background-position: center top;
 }
 
