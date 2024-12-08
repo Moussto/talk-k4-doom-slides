@@ -21,10 +21,13 @@ h1 {
 ---
 layout: center
 ---
-<v-switch>
-  <template #0> <img src="/pages/3-cross-compilation/assets/initial.png" width="800" /> </template>
-  <template #1> <img src="/pages/3-cross-compilation/assets/mac-arm.png" width="500" /> </template>
-</v-switch>
+<img src="/pages/3-cross-compilation/assets/initial.png" width="800" />
+
+
+---
+layout: center
+---
+<img src="/pages/3-cross-compilation/assets/mac-arm.png" width="500" />
 
 
 ---
@@ -36,7 +39,7 @@ layout: statement
 ---
 layout: default
 ---
-# <span class="doom-gradient">Toolchain</span> <code>arm-cortex_a8-linux-gnueabi-gcc</code>
+# <span class="doom-gradient">Toolchain</span> <code class='title-code' >arm-cortex_a8-linux-gnueabi-gcc</code>
 
 <br/>
 
@@ -90,7 +93,15 @@ layout: default
 ## <span :class="{ 'is-done': $clicks >= 12 }" v-click="10">  <CheckIcon v-if="$clicks >= 12" class='check-icon'/> Step II : Générer la toolchain</span>
 <div v-if="$clicks >= 10 && $clicks < 13" v-motion :initial="{ x: 0 }" :leave="{ x: 50 }">
     <br/>
-    <div v-click="[11, 12]"><h3>&nbsp&nbsp&nbsp&nbsp Attendre 32 minutes </h3></div>
+    <div v-click="[11, 12]">
+```shell{2}
+[INFO ]  Finalizing the toolchain directory: done in 7.09s (at 35:29)
+[INFO ]  Build completed at 20241024.190213 (elapsed: 35:28.74)
+[INFO ]  Finishing installation...
+```
+        <h3>&nbsp&nbsp&nbsp&nbsp Attendre 32 minutes </h3>
+
+</div>
 </div>
 
 ---
