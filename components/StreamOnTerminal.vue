@@ -4,9 +4,6 @@ import { onBeforeUnmount, onMounted } from "vue";
 
 let myStream: MediaStream = null
 
-// Ideao DC400
-const topWebcamDeviceId = "wp2nEOHn852ubwnrOShhTcO4pvVVP5MNk2RKsvRplyE="
-
 const stopStream = () => {
   console.log("Removing Webcam elements")
   myStream.getVideoTracks().forEach(track => track.stop());
@@ -15,21 +12,22 @@ const startStream = () => {
   console.log("Mounting Webcam elements")
   const video = document.querySelector("#webcam-video-on-top") as HTMLVideoElement;
   if (navigator.mediaDevices.getUserMedia) {
-    navigator.mediaDevices.enumerateDevices().then((devices) => console.log({devices}))
-    const con = navigator.mediaDevices.getSupportedConstraints()
-    console.log(con);
+    navigator.mediaDevices.enumerateDevices().then((devices) => {
+      console.log({ devices })
 
-    const constraints = {
-      video: {
-        deviceId: topWebcamDeviceId
-      },
-    }
-    navigator.mediaDevices.getUserMedia(constraints)
-        .then((stream) => {
-          myStream = stream;
-          video.srcObject = myStream;
-        })
-        .catch((error) => console.log("Ca marche pas mon reuf", error));
+      const myCamId = devices.find(device => device.label.includes('Ideao'))
+      const constraints = {
+        video: {
+          deviceId: myCamId
+        },
+      }
+      navigator.mediaDevices.getUserMedia(constraints)
+          .then((stream) => {
+            myStream = stream;
+            video.srcObject = myStream;
+          })
+          .catch((error) => console.log("Ca marche pas mon reuf", error));
+    })
   }
 }
 

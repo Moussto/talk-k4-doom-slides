@@ -1,6 +1,6 @@
 ---
 layout: two-cols
-clicks: 5
+clicks: 8
 ---
 # <div class="doom-gradient">Doom de Wish</div>
 

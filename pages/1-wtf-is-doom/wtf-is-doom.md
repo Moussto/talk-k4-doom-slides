@@ -17,7 +17,7 @@ h1 {
 layout: full
 ---
 <SlidevVideo autoplay autoreset="slide" border="rounded">
-  <source src="/pages/1-wtf-is-doom/assets/doom_gameplay.mp4" type="video/mp4" />
+  <source src="/pages/1-wtf-is-doom/assets/doom_gameplay.webm" type="video/webm" />
 </SlidevVideo>
 
 
@@ -69,7 +69,9 @@ originalSource: https://www.smbc-comics.com/comic/2011-02-17
 source: smbc-comics
 ---
 <div class='absolute flex top-15 w-full  justify-center'>
-<logos-reddit-icon mr-3/> r / CanItRunDoom
+
+### <logos-reddit-icon mr-3/> r / CanItRunDoom
+
 </div>
 
 
