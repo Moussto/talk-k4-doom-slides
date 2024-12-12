@@ -67,6 +67,13 @@ layout: default
 <<< @/pages/5-code-and-kindle-framebuffer/assets/snippets/inputs.c c {all|1|3|5-12|13|18|21|all}
 
 ---
+layout: default
+---
+# <span class="doom-gradient">Makefile</span>
+
+<<< @/pages/5-code-and-kindle-framebuffer/assets/snippets/makef makefile {all|1|9|all}{maxHeight:'400px'}
+
+---
 src: /components/stream-on-term.md
 ---
 
