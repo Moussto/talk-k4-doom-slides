@@ -99,7 +99,7 @@ layout: default
 [INFO ]  Build completed at 20241024.190213 (elapsed: 35:28.74)
 [INFO ]  Finishing installation...
 ```
-        <h3>&nbsp&nbsp&nbsp&nbsp Attendre 32 minutes </h3>
+        <h3>&nbsp&nbsp&nbsp&nbsp Attendre 35 minutes </h3>
 
 </div>
 </div>

@@ -123,7 +123,7 @@ int main() {
 <br />
 
 ```shell
-gcc -o hello mysourcefile.c
+gcc -o hello hello.c
 ```
 ---
 src: /components/terminal-only.md
