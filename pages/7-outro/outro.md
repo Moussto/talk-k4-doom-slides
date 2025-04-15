@@ -142,3 +142,25 @@ td {
 }
 
 </style>
+
+---
+layout: full
+dragPos:
+  square: 594,271,324,174
+---
+
+# <div class="doom-gradient">DIAGNOSTIC SLIDE</div>
+
+<RenderWhen context="visible" class="stream-on-term-container">
+    <StreamOnTerminal/>
+</RenderWhen>
+
+<br />
+
+<AudioDiagnostic />
+
+<style>
+.stream-on-term-container {
+    height: 50%;
+}
+</style>
