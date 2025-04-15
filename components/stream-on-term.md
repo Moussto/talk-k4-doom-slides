@@ -8,7 +8,6 @@ dragPos:
     <StreamOnTerminal/>
 </RenderWhen>
 
-
 <style>
 .stream-on-term-container {
     height: 100%;

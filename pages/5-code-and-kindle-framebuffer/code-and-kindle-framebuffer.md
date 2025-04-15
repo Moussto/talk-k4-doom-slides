@@ -6,7 +6,6 @@ layout: two-cols
 
 <img v-click height="300" src="/pages/5-code-and-kindle-framebuffer/assets/k4-resolution.png">
 
-
 ::right::
 <br />
 <br />
@@ -15,9 +14,11 @@ layout: two-cols
 <v-clicks>
 
 ## Chaque pixel:
+
 <br />
 
 - ### 8 bit encoded
+
 <br />
 
 - ### <span class="gidot-easter-egg" v-mark.strike-through="{ color: 'white', strokeWidth:1, iterations: 3, animationDuration: 4000, delay: 1500}" >50 Shades Of Grey</span>
@@ -28,7 +29,6 @@ layout: two-cols
 <br />
 
 - ### Raw binary into `/dev/fb0`
-
 
 </v-clicks>
 
@@ -47,11 +47,13 @@ img {
 }
 </style>
 
-
 ---
 src: /components/stream-on-term.md
 ---
-<!-- dd if=./imageraw of=/dev/fb0 bs=600 count=800  echo 1 > /proc/eink_fb/update_display -->
+
+<!--
+dd if=./imageraw of=/dev/fb0 bs=600 count=800  echo 1 > /proc/eink_fb/update_display
+-->
 
 ---
 layout: center
@@ -62,6 +64,7 @@ layout: center
 ---
 layout: default
 ---
+
 # <span class="doom-gradient">Inputs</span> <code class='title-code'>/dev/input/event1</code>
 
 <<< @/pages/5-code-and-kindle-framebuffer/assets/snippets/inputs.c c {all|1|3|5-12|13|18|21|all}
@@ -69,6 +72,7 @@ layout: default
 ---
 layout: default
 ---
+
 # <span class="doom-gradient">Makefile</span>
 
 <<< @/pages/5-code-and-kindle-framebuffer/assets/snippets/makef makefile {all|1|9|all}{maxHeight:'400px'}
@@ -76,4 +80,3 @@ layout: default
 ---
 src: /components/stream-on-term.md
 ---
-

@@ -5,6 +5,7 @@ image: /pages/3-cross-compilation/assets/sped_up.gif
 audioSourcePath: /pages/3-cross-compilation/assets/requiem_d_minor_7.mp3
 preload: true
 ---
+
 <div class="flex w-full h-full flex-col items-center justify-center">
     <h1 class="doom-gradient" v-motion :initial="{ opacity: 0, scale: 0.6 }" :enter="{ opacity: 1, scale: 1 }" :delay="500" :duration="9000">CROSS COMPILATION</h1>
 </div>
@@ -21,24 +22,26 @@ h1 {
 ---
 layout: center
 ---
-<img src="/pages/3-cross-compilation/assets/initial.png" width="800" />
 
+<img src="/pages/3-cross-compilation/assets/initial.png" width="800" />
 
 ---
 layout: center
 ---
-<img src="/pages/3-cross-compilation/assets/mac-arm.png" width="500" />
 
+<img src="/pages/3-cross-compilation/assets/mac-arm.png" width="500" />
 
 ---
 layout: statement
 ---
+
 <h1 class="doom-gradient">Crosstool-NG can build all these kinds of toolchains, or is aiming at it, anyway</h1>
 <h6>- crosstool-ng official doc</h6>
 
 ---
 layout: default
 ---
+
 # <span class="doom-gradient">Toolchain</span> <code class='title-code' >arm-cortex_a8-linux-gnueabi-gcc</code>
 
 <br/>
@@ -47,7 +50,8 @@ layout: default
 1 -> 4
 -->
 
-## <span :class="{ 'is-invalid': $clicks >= 4 }">  <CrossIcon v-if="$clicks >= 4" class='cross-icon'/> Step I : Installer crosstool-NG sur macOS</span>
+## <span :class="{ 'is-invalid': $clicks >= 4 }"> <CrossIcon v-if="$clicks >= 4" class='cross-icon'/> Step I : Installer crosstool-NG sur macOS</span>
+
 <div v-if="$clicks < 4" v-motion :initial="{ x: 0 }" :leave="{ x: 50 }">
     <br/>
     <div v-click="[1, 4]"><h3>&nbsp&nbsp&nbsp&nbsp<code>brew install</code> beaucoup de trop de packages</h3></div>
@@ -63,7 +67,8 @@ layout: default
 5 -> 9
 -->
 
-## <span :class="{ 'is-done': $clicks >= 9 }" v-click="5">  <CheckIcon v-if="$clicks >= 9" class='check-icon'/> Step I : Installer crosstool-NG sur Ubuntu (Docker) </span>
+## <span :class="{ 'is-done': $clicks >= 9 }" v-click="5"> <CheckIcon v-if="$clicks >= 9" class='check-icon'/> Step I : Installer crosstool-NG sur Ubuntu (Docker) </span>
+
 <div v-if="$clicks >= 5 && $clicks < 9" v-motion :initial="{ x: 0 }" :leave="{ x: 50 }">
     <br/>
     <div v-click="[6, 9]"><h3>&nbsp&nbsp&nbsp&nbsp Installer crosstool-NG sur Ubuntu</h3></div>
@@ -71,12 +76,12 @@ layout: default
     <div v-click="[7, 9]"><h3>&nbsp&nbsp&nbsp&nbsp Configurer la toolchain arm-cortex_a8-linux-gnueabi-gcc 🛠</h3></div> 
     <div v-click="[7, 9]" w-100 mx-7>
 
-|              |                  |   |            |                        |
-|--------------|------------------|---|------------|------------------------|
-| Architecture | <kbd>Armv7</kbd> |   | C lib      | <kbd>glibc</kbd>       |
-| Compiler     | <kbd>gcc</kbd>   |   | CC version | <kbd>linaro 4.17</kbd> |
-| Interface    | <kbd>EABI</kbd>  |   | Endianness | <kbd>Little endian</kbd> |
-    
+|              |                  |     |            |                          |
+| ------------ | ---------------- | --- | ---------- | ------------------------ |
+| Architecture | <kbd>Armv7</kbd> |     | C lib      | <kbd>glibc</kbd>         |
+| Compiler     | <kbd>gcc</kbd>   |     | CC version | <kbd>linaro 4.17</kbd>   |
+| Interface    | <kbd>EABI</kbd>  |     | Endianness | <kbd>Little endian</kbd> |
+
 </div>
 </div>
 
@@ -84,13 +89,12 @@ layout: default
 
 <img  v-click="[8, 9]" v-motion :initial="{ x: 100 }" :enter="{ x: 0 }" :leave="{ x: 100 }" absolute class="bottom-15 right-0" src="/pages/3-cross-compilation/assets/crosstool-ng-menu.png">
 
-
 <!--
 10 -> 12
 -->
 
+## <span :class="{ 'is-done': $clicks >= 12 }" v-click="10"> <CheckIcon v-if="$clicks >= 12" class='check-icon'/> Step II : Générer la toolchain</span>
 
-## <span :class="{ 'is-done': $clicks >= 12 }" v-click="10">  <CheckIcon v-if="$clicks >= 12" class='check-icon'/> Step II : Générer la toolchain</span>
 <div v-if="$clicks >= 10 && $clicks < 13" v-motion :initial="{ x: 0 }" :leave="{ x: 50 }">
     <br/>
     <div v-click="[11, 12]">
@@ -107,13 +111,14 @@ layout: default
 ---
 layout: center
 ---
+
 <img src="/pages/3-cross-compilation/assets/final-overview.png" />
 <img  v-click v-motion :initial="{ x: 100 }" :enter="{ x: 0 }" :leave="{ x: 100 }" absolute class="-bottom-7 right-0" w-65 src="/pages/3-cross-compilation/assets/pedro-overengineer.gif">
-
 
 <!--
 Hello world
 -->
+
 ---
 src: /components/terminal-only.md
 ---
