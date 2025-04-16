@@ -89,4 +89,4 @@ layout: statement
 ---
 
 <h1 class="doom-gradient">Peut-être, mais je fais ce que je veux</h1>
-<h6 v-click>- Moi</h6>
+<h6>- Moi</h6>

@@ -2,13 +2,19 @@
 layout: image-right
 image: /pages/2-ssh-and-hello-world-kindle/assets/kindle_model.png
 backgroundSize: contain
+clicks: 3
 ---
 
 <div class="flex w-full h-full flex-col items-center justify-center">
-    <h1>Kindle 4th Gen</h1>
-    <p v-motion v-click  :initial="{ y: -50 }" :enter="{ y: 0 }">(qui date un peu...)</p>
-    <div v-click>
-    <div  v-if="$clicks > 1" v-motion :initial="{ y: 50 }" :enter="{ y: 0 }" class="tab">
+    <h1><span class="doom-gradient">Kindle</span> 4th Gen</h1>
+    <p v-motion v-click :initial="{ y: -50 }" :enter="{ y: 0 }">(qui date un peu...)</p>
+    <div v-motion v-click :initial="{ y: 500 }" :enter="{ y: 0, transition: { delay: 0, duration: 400 } }" class="tab">
+        <div v-if="$clicks > 1 && $clicks < 3">
+            <SlidevVideo  autoplay autoreset="slide" border="rounded">
+                <source src="/pages/2-ssh-and-hello-world-kindle/assets/eink.webm" type="video/webm" />
+            </SlidevVideo>
+        </div>
+        <div v-if="$clicks > 2" v-click="[3, 4]" v-motion :initial="{ y: 500 }" :enter="{ y: 0, transition: { delay: 0, duration: 400 } }">
 
 |         |     |     |     |                                                                             |
 | ------- | --- | --- | --- | --------------------------------------------------------------------------- |
@@ -21,13 +27,6 @@ backgroundSize: contain
 </div>
 </div>
 </div>
-
----
-layout: center
----
-
-<img src="/pages/2-ssh-and-hello-world-kindle/assets/eink.gif">
-<div class="asset-source" @click="window?.open('https://www.eink.com/tech/detail/How_it_works', '_blank')">Two Particle Ink System - E Ink Carta™</div>
 
 ---
 layout: default
