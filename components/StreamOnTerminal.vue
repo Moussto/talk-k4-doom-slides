@@ -38,7 +38,9 @@ onBeforeUnmount(stopStream);
 </script>
 
 <template>
-  <iframe src="http://localhost:8085" />
+  <div class="frame-wrapper magic-border">
+    <iframe src="http://localhost:8085" />
+  </div>
   <!-- Use local terminal streamed with ttyd like this `ttyd -W -p 8085 zsh` -->
   <div
     v-drag="'square'"
@@ -55,6 +57,11 @@ iframe {
   height: 100%;
   width: 100%;
   zoom: 0.8;
+}
+
+.frame-wrapper {
+  height: 100%;
+  width: 100%;
 }
 
 video {

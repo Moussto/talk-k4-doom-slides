@@ -52,7 +52,7 @@ onBeforeMount(async () => {
 </script>
 
 <template>
-  <div class="dither-image-container">
+  <div class="magic-border">
     <span class="badge" v-if="badgeText">{{
       props.badgeText.toUpperCase()
     }}</span>
@@ -64,27 +64,19 @@ onBeforeMount(async () => {
 img {
   max-width: 100%;
   height: auto;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 5px;
-  background-color: #f5f5f5;
 }
 
-.dither-image-container {
-  position: relative;
-  padding-top: 20px;
-  display: inline-block;
-}
+
 
 .badge {
   position: absolute;
-  right: -20px;
-  top: 10px;
+  right: -25px;
+  top: -10px;
   background: var(--orange-doom-shade-4);
   text-align: center;
   border-radius: 6px;
-  color: wheat;
-  font-weight: bolder;
+  color: white;
+  font-weight: 500;
   padding: 0.35em 0.4em 0.3em;
   font-size: 0.85em;
   line-height: 1;
