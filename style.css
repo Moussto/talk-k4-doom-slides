@@ -7,6 +7,10 @@
 
     --orange-doom-color: #f73201;
 
+
+    --orange-doom-shade-0_5: #FFE7CEff;
+    --orange-doom-shade-0_9: #FFCF9Cff;
+
     --orange-doom-shade-1: #FFB76B;
     --orange-doom-shade-2: #FFC176;
     --orange-doom-shade-3: #FFA73D;
@@ -77,4 +81,44 @@ kbd {
 li::marker {
     color: var(--orange-doom-shade-1);
     font-size: 25px;
+}
+
+
+.magic-border {
+    --borderWidth: 1px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+.magic-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg,
+    var(--orange-doom-shade-0_5) 10%,
+    var(--orange-doom-shade-0_9) 15%,
+    var(--orange-doom-shade-1) 20%,
+    var(--orange-doom-shade-2) 35%,
+    var(--orange-doom-shade-3) 55%,
+    var(--orange-doom-shade-4) 70%,
+    var(--orange-doom-shade-5) 80%,
+    var(--orange-doom-shade-6) 100%);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 10s ease alternate infinite;
+    background-size: 300% 300%;
+}
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }

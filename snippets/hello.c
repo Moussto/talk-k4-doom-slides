@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-   printf("Yo la TZ");
+   printf("Can I kick it ?");
+   printf("Yes you can");
    return 0;
 }
 
