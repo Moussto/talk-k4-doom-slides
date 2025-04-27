@@ -45,7 +45,7 @@ const binaryValue = computed(() => toBinary(value.value).padStart(8, "0"));
 }
 
 .range input {
-  height: 4px;
+  height: 10px;
   width: 125px;
   border-radius: 5px;
   background-color: var(--orange-doom-shade-4);

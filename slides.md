@@ -22,6 +22,8 @@ themeConfig:
 <h1>UN PIXEL PUIS UN AUTRE</h1>
 <span class="subtitle">Comment porter Doom sur kindle</span>
 
+<span absolute class="bottom-10 right-10">MIXIT 2025</span>
+
 <style>
     h1 {
         font-weight: bolder;
