@@ -16,10 +16,11 @@ const startStream = () => {
     navigator.mediaDevices.enumerateDevices().then((devices) => {
       console.log({ devices });
 
-      const myCamId = devices.find((device) => device.label.includes("Ideao"));
+      const topVideoCameraIdeao = devices.find((device) => device.label.includes("Ideao"));
+
       const constraints = {
         video: {
-          deviceId: myCamId,
+          deviceId: topVideoCameraIdeao?.deviceId,
         },
       };
       navigator.mediaDevices
