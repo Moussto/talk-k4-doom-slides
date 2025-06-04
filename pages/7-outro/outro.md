@@ -50,13 +50,9 @@ layout: two-cols
 ##### Full Stack Engineer at <img src="./assets/zenika.png" width=65 pb-0.5 pl-1 pr-1 inline> and <img src="./assets/homeserve-inline.png" width=90 pl-1 pb-0.5 inline>
 
 <br/>
-<br/>
-<br/>
 
-###### (hit me up and say hello ✌🏾)
-
-<br/>
-<div class="grid grid-cols-2 gap-0.3">
+<div class="grid grid-cols-2 pt-3">
+  <div>
 
 ##### <logos-bluesky class="social-icon"/> moussto
 
@@ -65,6 +61,13 @@ layout: two-cols
 ##### <logos-twitter class="social-icon"/> mousstoh
 
 ##### <logos-linkedin-icon class="social-icon"/> moustapha-agack
+
+  </div>
+
+  <div class="ml-15 text-center">
+    <div class="magic-border"><img src="./assets/devquest-qr.png" width=125></div>
+    <div class="mt-3">OpenFeedback</div>
+  </div>
 
 </div>
 
@@ -119,6 +122,7 @@ layout: two-cols
     height: 20px;
     width: 20px;
     margin-right: 10px;
+    margin-top: 5px;
 }
 
 .thanks {
@@ -132,9 +136,6 @@ layout: two-cols
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("/assets/img/doom_bg.png");
     background-position: center top;
 }
-
-
-
 
 td {
     padding-top: 0.4rem;
