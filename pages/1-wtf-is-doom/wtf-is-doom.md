@@ -17,7 +17,7 @@ h1 {
 layout: full
 ---
 <SlidevVideo autoplay autoreset="slide" border="rounded">
-  <source src="/pages/1-wtf-is-doom/assets/doom_gameplay.webm" type="video/webm" />
+  <source src="/pages/1-wtf-is-doom/assets/doom_gameplay_eq4.webm" type="video/webm" />
 </SlidevVideo>
 
 
