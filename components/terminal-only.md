@@ -4,7 +4,7 @@ layout: full
 
 <!-- Use local terminal streamed with ttyd like this `ttyd -W -p 8085 zsh` -->
 <div class="frame-wrapper magic-border">
-    <iframe height="1000" width="1000" src="http://localhost:8085" />
+    <iframe height="1000" width="1000" src="http://localhost:8085/?fontSize=19" />
 </div>
 
 <style>

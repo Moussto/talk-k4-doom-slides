@@ -40,7 +40,7 @@ onBeforeUnmount(stopStream);
 
 <template>
   <div class="frame-wrapper magic-border">
-    <iframe src="http://localhost:8085" />
+    <iframe src="http://localhost:8085/?fontSize=21" />
   </div>
   <!-- Use local terminal streamed with ttyd like this `ttyd -W -p 8085 zsh` -->
   <div
