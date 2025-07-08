@@ -23,7 +23,7 @@ themeConfig:
 <span class="subtitle">Comment porter Doom sur kindle</span>
 
 
-<span absolute class="bottom-10 right-10">DEVQUEST 2025</span>
+<span absolute class="bottom-10 right-10">RIVIERA DEV 2025</span>
 
 
 <style>

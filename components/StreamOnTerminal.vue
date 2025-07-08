@@ -17,6 +17,7 @@ const startStream = () => {
       console.log({ devices });
 
       const topVideoCameraIdeao = devices.find((device) => device.label.includes("Ideao"));
+      console.log({topVideoCameraIdeao})
 
       const constraints = {
         video: {

@@ -65,7 +65,7 @@ layout: two-cols
   </div>
 
   <div class="ml-15 text-center">
-    <div class="magic-border"><img src="./assets/devquest-qr.png" width=125></div>
+    <div class="magic-border"><img src="./assets/riviera-qr.png" width=125></div>
     <div class="mt-3">OpenFeedback</div>
   </div>
 
