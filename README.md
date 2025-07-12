@@ -32,7 +32,7 @@ Actual DOOM port on https://github.com/Moussto/k4-doom
 
 ## 📸 Demos & Replay
 
-[Demo](https://github.com/user-attachments/assets/5164c379-727e-47e9-9489-4bc535bde5f2)
+[demo.webm](https://github.com/user-attachments/assets/fde101e7-d3e2-4830-b719-76512cab9a0e)
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=Cw-Ol-hzD1I">
