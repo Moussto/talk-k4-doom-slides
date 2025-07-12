@@ -26,13 +26,21 @@
 ---
 
 This repository contains slides and notes from my talk on porting DOOM to the Kindle 4.
+Actual DOOM port on https://github.com/Moussto/k4-doom
 
 ---
 
 ## 📸 Demos & Replay
 
 <p align="center">
-  Coming soon  
+  <a href="https://www.youtube.com/watch?v=Cw-Ol-hzD1I">
+    <img src="https://img.shields.io/badge/DevQuest-3B8070?style=for-the-badge&logo=slidev&logoColor=white" alt="DevQuest 2025" />
+  </a>
+
+  <a href="https://www.youtube.com/watch?v=9hvCSK7c8s4">
+    <img src="https://img.shields.io/badge/MIXIT-3B8070?style=for-the-badge&logo=slidev&logoColor=white" alt="MIXIT 2025" />
+  </a>
+
 </p>
 
 ---
