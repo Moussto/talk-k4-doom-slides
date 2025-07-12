@@ -1,9 +1,6 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/your-username/banner-image.png" alt="K4 Doom Slides Banner" width="100%" />
+  <img width="1018" height="368" alt="Screenshot 2025-07-12 at 17 20 01" src="https://github.com/user-attachments/assets/d6708847-c0b0-4cc7-b9fa-e3c886ece1f1" />
 </p>
-
-<h1 align="center">Slides: DOOM on Kindle 4</h1>
-
 <p align="center">
   <em>Slides & Notes from my talk on porting DOOM to the Kindle 4</em>
 </p>
@@ -20,12 +17,14 @@
   </a>
 </p>
 
+
 <p align="center">
 </p>
 
 ---
 
 This repository contains slides and notes from my talk on porting DOOM to the Kindle 4.
+
 Actual DOOM port on https://github.com/Moussto/k4-doom
 
 ---
