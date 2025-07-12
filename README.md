@@ -47,7 +47,20 @@ Actual DOOM port on https://github.com/Moussto/k4-doom
 
 ---
 
-## 🧪 Useful Commands
+
+## Run the slides
+
+
+```shell
+// Launch the slides
+bun install && bun dev
+
+// Use local zsh (or shell of choice) streamed with ttyd 
+ttyd -W -p 8085 zsh 
+
+```
+
+## 🧪 Useful Commands for Kindle SSH 
 
 > _Personal notes for reference during development._
 
